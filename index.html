@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -374,13 +376,13 @@
 			<h3 class="section-heading text-center mb-3">Organizatorzy</h3>
 			<div class="section-intro text-center single-col-max mx-auto mb-5"></div>
 			<div class="row">
-
+				{% for item in site.organizers %}
 				<!--organizator-->
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
-						<img src="assets/images/speakers/MartynaMatyjek.jpg" class="card-img-top rounded-0" alt="">
+						<img src="assets/images/speakers/{{ item.photo }}" class="card-img-top rounded-0" alt="">
 						<div class="card-body">
-							<h5 class="card-title mb-2">Martyna Matyjek</h5>
+							<h5 class="card-title mb-2">{{ item.name }}</h5>
 							<div class="card-text mb-3">
 								<div class="meta"></div>
 								<div class="meta"></div>
@@ -390,67 +392,21 @@
 						<!--//card-->
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/martyna-matyjek/"><i
+								{% if item.ln %}
+								<li class="list-inline-item"><a href="{{ item.ln }}"><i
 											class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//organizator -->
-
-				<!--organizator-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="card rounded-0">
-						<img src="assets/images/speakers/OlenaStukanova.jpg" class="card-img-top rounded-0" alt="">
-						<div class="card-body">
-							<h5 class="card-title mb-2">Olena Stukanova</h5>
-							<div class="card-text mb-3">
-								<div class="meta"></div>
-								<div class="meta"></div>
-							</div>
-							<!--//card-text-->
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/olena-stukanova/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//organizator -->
-
-				<!--organizator-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="card rounded-0">
-						<img src="assets/images/speakers/TomaszWisniewski.jpeg" class="card-img-top rounded-0" alt="">
-						<div class="card-body">
-							<h5 class="card-title mb-2">Tomasz Wiśniewski</h5>
-							<div class="card-text mb-3">
-								<div class="meta"></div>
-								<div class="meta"></div>
-							</div>
-							<!--//card-text-->
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/wisniewskitomasz/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="https://twitter.com/wisniewskit"><i
+								{% endif %}
+								{% if item.twitter %}
+								<li class="list-inline-item"><a href="{{ item.twitter }}"><i
 											class="fab fa-twitter fa-fw"></i></a>
 								</li>
-								<li class="list-inline-item"><a href="https://tomaszwisniewski.com/"><i
+								{% endif %}
+								{% if item.url %}
+								<li class="list-inline-item"><a href="{{ item.url }}"><i
 											class="fas fa-link fa-fw"></i></a>
 								</li>
+								{% endif %}
 							</ul>
 							<!--//social-list-->
 						</div>
@@ -458,70 +414,7 @@
 					<!--//card-->
 				</div>
 				<!--//organizator -->
-
-				<!--organizator-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="card rounded-0">
-						<img src="assets/images/speakers/MarekGrabarz.jpeg" class="card-img-top rounded-0" alt="">
-						<div class="card-body">
-							<h5 class="card-title mb-2">Marek Grabarz</h5>
-							<div class="card-text mb-3">
-								<div class="meta"></div>
-								<div class="meta"></div>
-							</div>
-							<!--//card-text-->
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/grabarz/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="https://twitter.com/marekgrabarz"><i
-											class="fab fa-twitter fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="https://grabarz.pl/"><i
-											class="fas fa-link fa-fw"></i></a>
-								</li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//organizator -->
-
-				<!--organizator-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4">
-					<div class="card rounded-0">
-						<img src="assets/images/speakers/EmilWasilewski.jpg" class="card-img-top rounded-0" alt="">
-						<div class="card-body">
-							<h5 class="card-title mb-2">Emil Wasilewski</h5>
-							<div class="card-text mb-3">
-								<div class="meta"></div>
-								<div class="meta"></div>
-							</div>
-							<!--//card-text-->
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="https://www.linkedin.com/in/emilwasilewski/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="https://twitter.com/WasilewskiEmil"><i
-											class="fab fa-twitter fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="https://github.com/eklime"><i
-											class="fas fa-link fa-fw"></i></a>
-								</li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//organizator -->
+				{% endfor %}
 
 			</div>
 			<!--//row-->
