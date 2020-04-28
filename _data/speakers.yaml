@@ -1,0 +1,26 @@
+- name: Emil Wasilewski
+  photo: EmilWasilewski.jpg
+  ln: https://www.linkedin.com/in/emilwasilewski/
+  twitter: https://twitter.com/WasilewskiEmil
+  url: 
+  specialization: Azure Infrastructure Architect;Azure Administrator;
+  facebook:
+  github: https://github.com/eklime
+  bio: >
+    Microsoft Most Valuable Professional in Azure category.
+    Leader of Polish Microsoft Azure User Group.
+    Microsoft certified architect and trainer on Microsoft Azure platform.
+    Co-organizer of the AzureDay Poland conference.
+    Speaker at many conferences and group meetings.
+    Co-author of YouTube channel "ABŚ - Azure Bez Ściemy".
+    Formal owner of AzureTruck car.
+- name: Tomasz Wiśniewski
+  photo: TomaszWisniewski.jpeg
+  ln: https://www.linkedin.com/in/wisniewskitomasz/
+  twitter: https://twitter.com/wisniewskit
+  url: https://tomaszwisniewski.com
+  specialization: Azure Solutions Architect;Azure Infrastructure Architect;Azure Developer;Azure DevOps;Azure Administrator;
+  facebook:
+  github:
+  bio: >
+    Architekt Azure zajmujacy sie ta technologia od 2011 roku. Fan Azure DevOps, Visual Studio. Zwolennik prostych i skutecznych rozwiazan.

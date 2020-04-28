@@ -49,34 +49,33 @@
 					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon"
 								src="assets/images/logos/logo_with_text_white.png" alt="logo"></a></div>
 
-					<div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="" target="_blank">Aplikuj!</a>
-					</div>
-
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end mr-lg-3">
-						<ul class="nav navbar-nav">
-							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">O programie</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Mentorzy</a></li>
-							<li class="nav-item"><a class="nav-link scrollto"
-									href="#organizers-section">Organizatorzy</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Harmonogram</a>
-							</li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Partnerzy</a>
-							</li>
-						</ul>
-						<!--//nav-->
-					</div>
-					<!--//navabr-collapse-->
-
-				</nav>
-				<!--//main-nav-->
-
+					<!-- <div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="" target="_blank">Aplikuj!</a>-->
 			</div>
-			<!--//container-->
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+				aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end mr-lg-3">
+				<ul class="nav navbar-nav">
+					<li class="nav-item"><a class="nav-link scrollto" href="#about-section">O programie</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Mentorzy</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#organizers-section">Organizatorzy</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Harmonogram</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Partnerzy</a>
+					</li>
+				</ul>
+				<!--//nav-->
+			</div>
+			<!--//navabr-collapse-->
+
+			</nav>
+			<!--//main-nav-->
+
+		</div>
+		<!--//container-->
 		</div>
 		<!--//branding-->
 	</header>
@@ -126,9 +125,11 @@
 					<div id="countdown-box" class="countdown-box"></div>
 				</div>
 				<!--//event-countdown-->
-				<div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg  mb-5"
+				<div class="about-cta text-center mb-5">
+					<!--<a class="btn btn-secondary btn-lg  mb-5"
 						href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/"
-						target="_blank">Aplikuj!</a></div>
+						target="_blank"> Aplikuj!</a>! -->
+				</div>
 			</div>
 		</div>
 		<!--//container-->
@@ -155,35 +156,61 @@
 				</select>
 			</div>
 			<div class="row">
-
+				{% for item in site.data.speakers %}
+				{% assign specialization = item.specialization | split: ";"%}
 				<!--mentor-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4 mentor azure-data azure-data-scientist">
+				<div
+					class="col-12 col-md-6 col-lg-3 mb-4 mentor {% for item in specialization%}{{ item | downcase | replace: " ", "-" }} {% endfor %}">
 					<div class="card rounded-0">
-						<a href="#modal-speaker-2" data-toggle="modal" data-target="#modal-speaker-2"><img
-								src="assets/images/speakers/speaker-2.jpg" class="card-img-top rounded-0" alt=""></a>
+						<a href="#modal-speaker-{{ forloop.index }}" data-toggle="modal"
+							data-target="#modal-speaker-{{ forloop.index }}"><img
+								src="assets/images/speakers/{{ item.photo }}" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Sarah Doe</h5>
+							<h5 class="card-title mb-2">{{ item.name }}</h5>
 							<div class="card-text mb-3">
-								<div class="meta">Developer Advocate</div>
-								<div class="meta">Azure</div>
+								<div class="meta"></div>
+								<div class="meta"></div>
 							</div>
 							<div class="card-text mb-3">
-								<span class="badge badge-info">Azure Data Scientist</span>
-								<span class="badge badge-info">Azure Data</span>
 
+								{% for item in specialization %}
+								<span class="badge badge-info">{{ item }}</span>
+								{% endfor %}
 							</div>
 							<!--//card-text-->
-							<a href="#modal-speaker-2" data-toggle="modal" data-target="#modal-speaker-2">TODO: Zobacz
+							<a href="#modal-speaker-{{ forloop.index }}" data-toggle="modal"
+								data-target="#modal-speaker-{{ forloop.index }}">TODO: Zobacz
 								więcej?
 								&rarr;</a>
 						</div>
 						<!--//card-->
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
+								{% if item.ln %}
+								<li class="list-inline-item"><a href="{{ item.ln }}"><i
+											class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+								{% endif %}
+								{% if item.twitter %}
+								<li class="list-inline-item"><a href="{{ item.twitter }}"><i
+											class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								{% endif %}
+								{% if item.facebook %}
+								<li class="list-inline-item"><a href="{{ item.facebook }}"><i
+											class="fab fa-facebook fa-fw"></i></a>
+								</li>
+								{% endif %}
+								{% if item.github %}
+								<li class="list-inline-item"><a href="{{ item.github }}"><i
+											class="fab fa-github fa-fw"></i></a>
+								</li>
+								{% endif %}
+								{% if item.url %}
+								<li class="list-inline-item"><a href="{{ item.url }}"><i
+											class="fas fa-link fa-fw"></i></a>
+								</li>
+								{% endif %}
 							</ul>
 							<!--//social-list-->
 						</div>
@@ -191,109 +218,7 @@
 					<!--//card-->
 				</div>
 				<!--//mentor -->
-
-				<!--mentor-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4 mentor azure-developer">
-					<div class="card rounded-0">
-						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img
-								src="assets/images/speakers/speaker-1.jpg" class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2">James Doe</h5>
-							<div class="card-text mb-3">
-								<div class="meta">Senior Software Developer</div>
-								<div class="meta">Angular Core Team</div>
-							</div>
-							<div class="card-text mb-3">
-								<span class="badge badge-info">Azure Developer</span>
-							</div>
-							<!--//card-text-->
-							<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1">TODO: Zobacz
-								więcej?
-								&rarr;</a>
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//mentor -->
-
-				<!--mentor-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4 mentor azure-developer azure-devops">
-					<div class="card rounded-0">
-						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img
-								src="assets/images/speakers/speaker-3.jpg" class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2">Tim Doe</h5>
-							<div class="card-text mb-3">
-								<div class="meta">Software Developer</div>
-								<div class="meta">React Core Team</div>
-							</div>
-							<div class="card-text mb-3">
-								<span class="badge badge-info">Azure Developer</span>
-								<span class="badge badge-info">Azure DevOps</span>
-							</div>
-							<!--//card-text-->
-							<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1">TODO: Zobacz
-								więcej?
-								&rarr;</a>
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//mentor -->
-
-				<!--mentor-->
-				<div class="col-12 col-md-6 col-lg-3 mb-4 mentor azure-administrator">
-					<div class="card rounded-0">
-						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img
-								src="assets/images/speakers/speaker-4.jpg" class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2">Josh Doe</h5>
-							<div class="card-text mb-3">
-								<div class="meta">Founder &amp; CTO</div>
-								<div class="meta">Startup Week</div>
-							</div>
-							<div class="card-text mb-3">
-								<span class="badge badge-info">Azure Administrator</span>
-							</div>
-							<!--//card-text-->
-							<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1">TODO: Zobacz
-								więcej?
-								&rarr;</a>
-						</div>
-						<!--//card-->
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-							</ul>
-							<!--//social-list-->
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-				<!--//mentor -->
+				{% endfor %}
 
 			</div>
 			<!--//row-->
@@ -376,7 +301,7 @@
 			<h3 class="section-heading text-center mb-3">Organizatorzy</h3>
 			<div class="section-intro text-center single-col-max mx-auto mb-5"></div>
 			<div class="row">
-				{% for item in site.organizers %}
+				{% for item in site.data.organizers %}
 				<!--organizator-->
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
@@ -433,9 +358,9 @@
 			<h3 class="section-heading text-center mb-3">Partnerzy</h3>
 			<div class="section-intro text-center single-col-max mx-auto mb-5">TODO</div>
 			<div class="row logos justify-content-center">
+			<!--	<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-.svg" alt=""></div>
 				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-.svg" alt=""></div>
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-.svg" alt=""></div>
-				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-.svg" alt=""></div>-->
 			</div>
 			<!--//row-->
 		</div>
@@ -475,48 +400,64 @@
 		</div>
 		<!--//container-->
 	</footer>
-
+	{% for item in site.data.speakers %}
+	{% assign specialization = item.specialization | split: ";"%}
 	<!-- Modal Speaker -->
-	<div class="modal modal-speaker modal-speaker-2" id="modal-speaker-2" tabindex="-1" role="dialog"
-		aria-labelledby="speaker-2-ModalLabel" aria-hidden="true">
+	<div class="modal modal-speaker modal-speaker-{{ forloop.index }}" id="modal-speaker-{{ forloop.index }}"
+		tabindex="-1" role="dialog" aria-labelledby="speaker-{{ forloop.index }}-ModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only">Speaker Name</h4>
+					<h4 id="speaker-{{ forloop.index }}-ModalLabel" class="modal-title sr-only">{{ item.name }}</h4>
 				</div>
 				<div class="modal-body p-0">
 					<div class="media flex-column flex-md-row theme-bg-light p-4 p-lg-5">
 						<img class="profile-image mb-3 mb-md-0 mr-md-4 rounded-circle mx-auto"
-							src="assets/images/speakers/speaker-1.jpg" alt="" />
+							src="assets/images/speakers/{{ item.photo }}" alt="" />
 
 						<div class="media-body text-center text-md-left mx-auto">
-							<h2 class="name mb-2">Speaker Name</h2>
-							<div class="meta">Job Title Or Position</div>
-							<div class="meta mb-2">Company Or Organization</div>
+							<h2 class="name mb-2">{{ item.name }}</h2>
+							<div class="meta"></div>
+							<div class="meta mb-2"></div>
 							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
+								{% if item.ln %}
+								<li class="list-inline-item"><a href="{{ item.ln }}"><i
+											class="fab fa-linkedin-in fa-fw"></i></a>
 								</li>
-								<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+								{% endif %}
+								{% if item.twitter %}
+								<li class="list-inline-item"><a href="{{ item.twitter }}"><i
+											class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								{% endif %}
+								{% if item.facebook %}
+								<li class="list-inline-item"><a href="{{ item.facebook }}"><i
+											class="fab fa-facebook fa-fw"></i></a>
+								</li>
+								{% endif %}
+								{% if item.github %}
+								<li class="list-inline-item"><a href="{{ item.github }}"><i
+											class="fab fa-github fa-fw"></i></a>
+								</li>
+								{% endif %}
+								{% if item.url %}
+								<li class="list-inline-item"><a href="{{ item.url }}"><i
+											class="fas fa-link fa-fw"></i></a>
+								</li>
+								{% endif %}
 							</ul>
 							<!--//social-list-->
+							{% for item in specialization %}
+							<span class="badge badge-info">{{ item }}</span>
+							{% endfor %}
 						</div>
 						<!--//media-body-->
 					</div>
 					<!--//media-->
 
 					<div class="desc p-4 p-lg-5">
-						<p>You can put speaker's bio or talk related info here. Duis a mi quis metus porttitor eleifend.
-							Pellentesque finibus ultrices imperdiet. Maecenas auctor tortor quis risus tincidunt, mattis
-							mattis leo placerat. Fusce metus augue, sagittis eget enim vel, venenatis auctor est. In
-							interdum felis massa, ac porta nunc pretium non. In fringilla orci vitae imperdiet
-							malesuada. Vestibulum feugiat lobortis est, in sagittis nisi molestie vel. Mauris ultrices
-							vitae lectus eu feugiat. Fusce semper, nisi at placerat mollis, augue elit pretium enim, eu
-							pellentesque justo purus et lectus. </p>
-						<p class="mb-0">Donec neque magna, molestie vel varius ut, pretium a urna. Pellentesque placerat
-							nunc eu condimentum pellentesque. Vivamus dictum nisl leo, id fermentum lectus porttitor et.
-							Pellentesque tristique erat libero, condimentum porttitor nisl pharetra et.</p>
+						<p>{{ item.bio }}</p>
 					</div>
 				</div>
 				<!--//modal-body-->
@@ -526,7 +467,7 @@
 		<!--//modal-dialog-->
 	</div>
 	<!--//modal-->
-
+	{% endfor %}
 	<!-- Javascript -->
 	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
 	<script src="assets/plugins/popper.min.js"></script>
