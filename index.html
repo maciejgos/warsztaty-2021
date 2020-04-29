@@ -26,19 +26,6 @@
 	<link rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
 
-
-	<style>
-		.bootstrap-select .bs-ok-default::after {
-			width: 0.3em;
-			height: 0.6em;
-			border-width: 0 0.1em 0.1em 0;
-			transform: rotate(45deg) translateY(0.5rem);
-		}
-
-		.btn.dropdown-toggle:focus {
-			outline: none !important;
-		}
-	</style>
 </head>
 
 <body>
@@ -60,13 +47,20 @@
 
 					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end mr-lg-3">
 						<ul class="nav navbar-nav">
-							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">O programie</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Mentorzy</a></li>
-							<li class="nav-item"><a class="nav-link scrollto"
-									href="#organizers-section">Organizatorzy</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Harmonogram</a>
+							<li class="nav-item">
+								<a class="nav-link scrollto" href="#about-section">O programie</a>
 							</li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Partnerzy</a>
+							<li class="nav-item">
+								<a class="nav-link scrollto" href="#schedule-section">Harmonogram</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scrollto" href="#speakers-section">Mentorzy</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scrollto" href="#organizers-section">Organizatorzy</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scrollto" href="#sponsors-section">Partnerzy</a>
 							</li>
 						</ul>
 						<!--//nav-->
@@ -138,6 +132,70 @@
 
 	</section>
 	<!--//about-section-->
+
+	<section id="schedule-section" class="schedule-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5">Harmonogram</h3>
+
+			<!-- Tab panes -->
+			<div class="schedule-tab-content tab-content">
+				<div class="tab-pane active" id="tab-1-content" role="tabpanel">
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">11 - 24 maja</h4>
+							<div class="profile">
+							</div>
+							<!--//profile-->
+						</div>
+						<!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">TODO: Tytuł - aplikujemy</h3>
+							<div class="desc">TODO: Opis</div>
+						</div>
+						<!--//content-->
+					</div>
+					<!--//item-->
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">25 - 31 maja </h4>
+							<div class="profile">
+							</div>
+							<!--//profile-->
+						</div>
+						<!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">TODO: Tytuł - wybór przez organizatorów i mentorów</h3>
+							<div class="desc">
+								TODO: Opis
+							</div>
+							<!--//content-->
+						</div>
+					</div>
+					<!--//item-->
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">1 czerwca <br>-<br>31 sierpnia</h4>
+						</div>
+						<!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">TODO: Tytuł - program</h3>
+							<div class="desc">
+								TODO: Opis
+							</div>
+						</div>
+						<!--//content-->
+					</div>
+				</div>
+				<!--//tab-1-content-->
+			</div>
+			<!--//schedule-tab-content-->
+		</div>
+		<!--//container-->
+	</section>
+	<!--//schedule-section-->
+	<div class="container">
+		<hr>
+	</div>
 
 	<section id="speakers-section" class="speakers-section section">
 		<div class="container">
@@ -229,70 +287,6 @@
 	</section>
 	<!--//speakers-section-->
 
-	<div class="container">
-		<hr>
-	</div>
-
-	<section id="schedule-section" class="schedule-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-5">Harmonogram</h3>
-
-			<!-- Tab panes -->
-			<div class="schedule-tab-content tab-content">
-				<div class="tab-pane active" id="tab-1-content" role="tabpanel">
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">11 - 24 maja</h4>
-							<div class="profile">
-							</div>
-							<!--//profile-->
-						</div>
-						<!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">TODO: Tytuł - aplikujemy</h3>
-							<div class="desc">TODO: Opis</div>
-						</div>
-						<!--//content-->
-					</div>
-					<!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">25 - 31 maja </h4>
-							<div class="profile">
-							</div>
-							<!--//profile-->
-						</div>
-						<!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">TODO: Tytuł - wybór przez organizatorów i mentorów</h3>
-							<div class="desc">
-								TODO: Opis
-							</div>
-							<!--//content-->
-						</div>
-					</div>
-					<!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">1 czerwca <br>-<br>31 sierpnia</h4>
-						</div>
-						<!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">TODO: Tytuł - program</h3>
-							<div class="desc">
-								TODO: Opis
-							</div>
-						</div>
-						<!--//content-->
-					</div>
-				</div>
-				<!--//tab-1-content-->
-			</div>
-			<!--//schedule-tab-content-->
-		</div>
-		<!--//container-->
-	</section>
-	<!--//schedule-section-->
 	<div class="container">
 		<hr>
 	</div>
