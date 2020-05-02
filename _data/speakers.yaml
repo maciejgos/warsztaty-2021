@@ -18,22 +18,7 @@
   github: https://github.com/ekote
   bio: Estera Kot pracuje jako Cloud Solution Architect w Microsoft, gdzie zajmuje się tworzeniem, projektowaniem, rozwijaniem i skalowaniem rozwiązań Data & AI na chmurze Azure. Estera szczególnie lubi zajmować się projektami związanymi z analityką, uczeniem maszynowym i sztuczną inteligencją. Dodatkowo, od 2018 robi doktorat z informatyki na Politechnice Warszawskiej. W pracy naukowej zajmuje się wykorzystaniem algorytmów widzenia komputerowego w celu detekcji i wizualizacji guzów mózgu.
 
-- name: Emil Wasilewski
-  photo: EmilWasilewski.jpg
-  ln: https://www.linkedin.com/in/emilwasilewski/
-  twitter: https://twitter.com/WasilewskiEmil
-  url: 
-  specialization: Azure Infrastructure Architect;Azure Administrator;
-  facebook:
-  github: https://github.com/eklime
-  bio: >
-    Microsoft Azure MVP.
-    Jeden z liderów Microsoft Azure User Group Poland.
-    Certyfikowany trener i architect rozwiązań chmurowych Microsoft Azure.
-    Organizator konferencji AzureDay Poland.
-    Prelegent na konferencja dużych i małych, a także lokalnych grup społecznościowych.
-    Współautor kanału na YouTube "ABŚ - Azure Bez Ściemy".
-    Formalny właściciel AzureTruck.
+
 - name: Tomasz Wiśniewski
   photo: TomaszWisniewski.jpeg
   ln: https://www.linkedin.com/in/wisniewskitomasz/
@@ -114,3 +99,52 @@
   facebook: 
   github: 
   bio: Tata, mąż, programista, geek. Założyciel devWarsztaty – bezpłatnych warsztatów dla każdego, kto chętnie uczy się i ćwiczy kunszt oprogramowania. Uwielbia bawić się nowościami, uczyć się nowych języków programowania i bibliotek, zapalony uczestnik konferencji, pasjonat poznawania nowych ludzi, zawsze chętny do pomocy. Microsoft MVP.  Naprawdę wierzy, że to, co robi, zmienia świat i pomaga inny.
+
+- name: Jakub Gutkowski
+  photo: JakubGutkowski.jpg
+  ln: https://linkedin.com/in/jakubg
+  twitter: https://twitter.com/gutek
+  url: https://blog.gutek.pl
+  specialization: Azure Solutions Architect;Azure Developer;Azure DevOps;
+  facebook: 
+  github: 
+  bio: Tata, mąż, programista, geek. Założyciel devWarsztaty – bezpłatnych warsztatów dla każdego, kto chętnie uczy się i ćwiczy kunszt oprogramowania. Uwielbia bawić się nowościami, uczyć się nowych języków programowania i bibliotek, zapalony uczestnik konferencji, pasjonat poznawania nowych ludzi, zawsze chętny do pomocy. Microsoft MVP.  Naprawdę wierzy, że to, co robi, zmienia świat i pomaga inny.
+
+- name: Emil Wasilewski
+  photo: EmilWasilewski.jpg
+  ln: https://www.linkedin.com/in/emilwasilewski/
+  twitter: https://twitter.com/WasilewskiEmil
+  url: 
+  specialization: Azure Infrastructure Architect;Azure Administrator;
+  facebook:
+  github: https://github.com/eklime
+  bio: >
+    Microsoft Azure MVP.
+    Jeden z liderów Microsoft Azure User Group Poland.
+    Certyfikowany trener i architect rozwiązań chmurowych Microsoft Azure.
+    Organizator konferencji AzureDay Poland.
+    Prelegent na konferencja dużych i małych, a także lokalnych grup społecznościowych.
+    Współautor kanału na YouTube "ABŚ - Azure Bez Ściemy".
+    Formalny właściciel AzureTruck.
+
+- name: Michał Smereczyński
+  photo: MichalSmereczynski.jpg
+  ln: https://www.linkedin.com/in/smereczynski/
+  twitter: https://twitter.com/smereczynski
+  url: 
+  specialization: Azure Solutions Architect;Azure Infrastructure Architect;Azure Security;
+  facebook: 
+  github: 
+  bio: Microsoft MVP w kategorii Microsoft Azure. Wiceprezes EntropyGuru.com. Architekt rozwiązań opartych o platformę Microsoft Azure z ponad pięcioletnim doświadczeniem. Z Azure pracuje od prawie 10 lat. Konsultant i Cloud Solution Provider. Ewangelista rozwiązań Open Source i interoperacyjności. Założyciel i animator Polskiej Grupy Użytkowników Microsoft Azure.
+
+- name: Roberto Prevato
+  photo: RobertoPrevato.jpg
+  ln: https://twitter.com/RobertoPrevato
+  twitter: https://twitter.com/RobertoPrevato
+  url: https://robertoprevato.github.io/
+  specialization: Azure Developer;Azure DevOps;
+  facebook: 
+  github: 
+  bio: >
+    I am a web applications specialist with great passion for coding and web technologies. Since three years I work with Azure in Demant, and since January also as software engineer for EdgeDB.
+    I love working with Python, C#, JavaScript/TypeScript; and generally working on end-to-end solutions for the web.
