@@ -37,6 +37,16 @@
   bio: >
     Pracuje jako doradca technologiczny w zakresie strategii i architektury IT, głównie związanych z technologiami chmurowymi i kontenerowymi. Z Azure związany zawodowo na pełen etat od 2014 roku. Poza pracą prowadzi podcast <a href="http://patoarchitekci.io/">Patoarchitekci</a> o technologii skierowany deweloperów, architektów IT i CTO. Jest aktywny członkiem społeczności IT, na których organizuje warsztaty, meetupy czy występuję na konferencjach. Od 2012 roku Microsoft MVP, w tym Azure.
 
+- name: Hubert Kobierzewski
+  photo: HubertKobierzewski.png
+  ln: https://www.linkedin.com/in/kobierzewski/
+  twitter: https://twitter.com/DataHubert
+  url: 
+  specialization: Azure Data
+  facebook: 
+  github: https://github.com/DataHubert
+  bio: "Hubert pracuje w firmie Codec jako BI Practice Lead i pomaga klientom zbierać ich dane oraz przekonwertować je w wartościowe informacje przy pomocy produktów platformy danych Microsoft. Poza pracą Hubert współprowadzi dwie grupy społecznościowe: warszawski oddział Data Community Poland oraz Warsaw Power BI User Group."
+
 - name: Estera Kot
   photo: EsteraKot.jpg
   ln: https://www.linkedin.com/in/esterakot/
