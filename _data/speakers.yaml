@@ -77,6 +77,17 @@
   github: 
   bio: Alicja, currently working at Microsoft as EMEA Global Black Belt OSS Data tech Specialist - is a PostgreSQL expert, both an experienced developer as well as administrator and PostgreSQL coach with strong practical knowledge of Linux and their mutual interactions. Particularly interested in performance optimization at different levels. She has consulted a lot of companies, mainly in Poland providing them with working solutions and supporting them in architecting, deploying and maintaining PostgreSQL. She is the founder and organizer of 🐘 Warsaw PostgreSQL Users Group - the group gathering polish PostgreSQL users, speaker at local users groups and conferences and trying to advocate PostgreSQL and open source in many possible ways. In the free time seen usually with two dogs 14 and 20 years old, benchmarking on 4U home server or writing games in python.
 
+- name: Tomasz Libera
+  photo: TomaszLibera.png
+  ln: https://www.linkedin.com/in/tomaszlibera/
+  twitter:
+  url:
+  specialization: Azure Data
+  facebook:
+  github:
+  bio: >
+    MVP Data Platform, MCT. Aktywny członek Data Community, założyciel i lider krakowskiego oddziału grupy, organizator konferencji. Pracuje jako DB Developer, rozwijając system zarządzania uczelnią. Prowadzi szkolenia on-line z zakresu Data Platform na platformie www.kursysql.pl
+
 - name: Maciek Misztal
   photo: MaciekMisztal.jpg
   ln: https://www.linkedin.com/in/maciej-misztal-bb424221/
@@ -88,6 +99,28 @@
   bio: >
     Absolwent wydziału Mechanicznego Energetyki i Lotnictwa, programujący od ok 5-tego roku życia. Do tej pory zetknąłem się z takimi językami jak: Basic, Pascal, C/C++, Fortran, Ruby, Python, JS/TS, C#. Z .NET'em jestem związany od ok 2010 r. Zaczynałem od Silverlight i WPF, w międzyczasie był Windows Phone, potem zwróciłem się w stronę ASP.NET / WebApi a finalnie w stronę ASP.NET Core. 100% samouk, korzystający z praktycznie każdego dostępnego źródła wiedzy.   Interesują mnie zagadnienia związane z architekturami mikroserwisowymi, service-mesh'es, kubernetes i DevOps. Najczęściej można mnie spotkać na styku developmentu i zagadnień związanych z DevOps, takimi jak infrastruktura, automatyzacja build'ów, release'ów, integracja z platformą hostującą i architektura platformy. Jestem wielkim zwolennikiem podejścia \\"infrastructure as code\\" a także wielkim fanem konteneryzacji.   Prywatnie, pasjonat żeglarstwa - zwłaszcza pełnomorskiego.
 
+- name: Błażej Miśkiewicz
+  photo: BlazejMiskiewicz.jpg
+  ln: https://www.linkedin.com/in/b%C5%82a%C5%BCej-mi%C5%9Bkiewicz-6bab406a/
+  twitter:
+  url:
+  specialization: Azure Solutions Architect;Azure Infrastructure Architect;Azure Security;Azure Administrator
+  facebook:
+  github:
+  bio: >
+    Na co dzień pracownik firmy Microsoft gdzie zajmuje się technologicznym wsparciem największych polskich klientów przy budowie rozwiązań w chmurze Microsoft Azure. Przed Microsoft pracował w firmie integratorskiej, gdzie odpowiedzialny był za realizacje wdrożeń związanych z różnymi dostawcami technologicznymi. Wieloletni autoryzowany trener firmy Microsoft, posiadacz wielu certyfikatów takich jak MCP, MSCA, MCTS, MCITP, MCSE, MCT. Główne zainteresowania dotyczą tematów aplikacyjno-infrastrukturalnych opartych o chmurę Microsoft Azure. W wolnym czasie, pozbawiony laptopa kocha spędzać czas z rodziną jak również pasjonat żeglarstwa oraz motoryzacji.
+
+- name: Paweł Potasiński
+  photo: PawelPotasinski.jpg
+  ln: https://www.linkedin.com/in/pawelpotasinski/
+  twitter: https://twitter.com/PawelPotasinski
+  url:
+  specialization: Azure Data
+  facebook:
+  github:
+  bio: >
+    Paweł jako CTO w ElitMind koncentruje się na określaniu kierunków technologicznych firmy i przekształcaniu jej Klientów w odnoszące sukcesy organizacje oparte na danych. Były pracownik Microsoft (Data Insights Product Manager dla Polski). W 2007 roku Paweł założył Polish SQL Server User Group (PLSSUG), obecnie znane jako Data Community Poland. Paweł był prelegentem na wielu konferencjach w Polsce i na świecie (np. SQLDay, SQLSaturday, European PASS Conference). W swojej karierze był siedmiokrotnie nagradzany Microsoft Most Valuable Professional (MVP). Fan chmury publicznej, wizualizacji danych i automatyzacji procesów. Prywatnie ojciec trojga dzieci i zapalony biegacz.
+ 
 - name: Roberto Prevato
   photo: RobertoPrevato.jpg
   ln: https://twitter.com/RobertoPrevato
