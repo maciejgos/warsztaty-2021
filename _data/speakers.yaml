@@ -157,3 +157,38 @@
   github:
   bio: >
     Architekt Azure zajmujacy sie ta technologia od 2011 roku. Fan Azure DevOps, Visual Studio. Zwolennik prostych i skutecznych rozwiązań.
+
+- name: Tomasz Libera
+  photo: TomaszLibera.png
+  ln: https://www.linkedin.com/in/tomaszlibera/
+  twitter:
+  url:
+  specialization: Azure Data
+  facebook:
+  github:
+  bio: >
+    MVP Data Platform, MCT. Aktywny członek Data Community, założyciel i lider krakowskiego oddziału grupy, organizator konferencji. Pracuje jako DB Developer, rozwijając system zarządzania uczelnią. Prowadzi szkolenia on-line z zakresu Data Platform na platformie www.kursysql.pl
+    
+   
+- name: Paweł Potasiński
+  photo: PawelPotasinski.jpg
+  ln: https://www.linkedin.com/in/pawelpotasinski/
+  twitter: https://twitter.com/PawelPotasinski
+  url:
+  specialization: Azure Data
+  facebook:
+  github:
+  bio: >
+    Paweł jako CTO w ElitMind koncentruje się na określaniu kierunków technologicznych firmy i przekształcaniu jej Klientów w odnoszące sukcesy organizacje oparte na danych. Były pracownik Microsoft (Data Insights Product Manager dla Polski). W 2007 roku Paweł założył Polish SQL Server User Group (PLSSUG), obecnie znane jako Data Community Poland. Paweł był prelegentem na wielu konferencjach w Polsce i na świecie (np. SQLDay, SQLSaturday, European PASS Conference). W swojej karierze był siedmiokrotnie nagradzany Microsoft Most Valuable Professional (MVP). Fan chmury publicznej, wizualizacji danych i automatyzacji procesów. Prywatnie ojciec trojga dzieci i zapalony biegacz.
+    
+- name: Błażej Miśkiewicz
+  photo: BlazejMiskiewicz.jpg
+  ln: https://www.linkedin.com/in/b%C5%82a%C5%BCej-mi%C5%9Bkiewicz-6bab406a/
+  twitter:
+  url:
+  specialization: Azure Solutions Architect;Azure Infrastructure Architect;Azure Security;Azure Administrator
+  facebook:
+  github:
+  bio: >
+    Na co dzień pracownik firmy Microsoft gdzie zajmuje się technologicznym wsparciem największych polskich klientów przy budowie rozwiązań w chmurze Microsoft Azure. Przed Microsoft pracował w firmie integratorskiej, gdzie odpowiedzialny był za realizacje wdrożeń związanych z różnymi dostawcami technologicznymi. Wieloletni autoryzowany trener firmy Microsoft, posiadacz wielu certyfikatów takich jak MCP, MSCA, MCTS, MCITP, MCSE, MCT. Główne zainteresowania dotyczą tematów aplikacyjno-infrastrukturalnych opartych o chmurę Microsoft Azure. W wolnym czasie, pozbawiony laptopa kocha spędzać czas z rodziną jak również pasjonat żeglarstwa oraz motoryzacji.
+    
