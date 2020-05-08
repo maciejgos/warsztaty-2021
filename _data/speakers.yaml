@@ -18,16 +18,6 @@
   github: 
   bio: Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer.
 
-- name: Jakub Gutkowski
-  photo: JakubGutkowski.jpg
-  ln: https://linkedin.com/in/jakubg
-  twitter: https://twitter.com/gutek
-  url: https://blog.gutek.pl
-  specialization: Azure Solutions Architect;Azure Developer;Azure DevOps;
-  facebook: 
-  github: 
-  bio: Tata, mąż, programista, geek. Założyciel devWarsztaty – bezpłatnych warsztatów dla każdego, kto chętnie uczy się i ćwiczy kunszt oprogramowania. Uwielbia bawić się nowościami, uczyć się nowych języków programowania i bibliotek, zapalony uczestnik konferencji, pasjonat poznawania nowych ludzi, zawsze chętny do pomocy. Microsoft MVP.  Naprawdę wierzy, że to, co robi, zmienia świat i pomaga inny.
-
 - name: Bartłomiej Graczyk
   photo: BartlomiejGraczyk.jpg
   ln: https://www.linkedin.com/in/bartlomiejgraczyk/
@@ -37,6 +27,16 @@
   facebook: 
   github: https://github.com/AzureCommunityPL/mentoring/issues/www.datainsiders.space
   bio: Lead Cloud Solution Architect,Data& AI, Microsoft Niemal dwie dekady doświadczenia w projektowaniu, wdrażaniu i optymalizacji rozwiązań z obszaru Business Intelligence i Data Warehouse. Przez ostatnie lata Bartek współpracuje z klientami i partnerami Microsoft transformując ich rozwiązania z obszaru danych do chmury publicznej. Jeden z głównych ewengelistów technologii takich jak Power BI, Azure Data Explorer czy Azure Synapse Analytics w Polsce i CEE. Ceniony expert w zakresie licencjonowania produktów Microsoft oraz Software Asset Management. Autor wielu publikacji oraz prelegent na konferencjach i warsztatach technologicznych.Posiada liczne certyfikacje m.in. Microsoft Certified Trainer, MCSE Business Intelligence & Data Platform. W latach 2013-2015 uhonorowany tytułem MVP w kategorii SQL Server / Data Platform category. Współtwórca i autor www.datainsiders.space oraz www.sql4you.info. Propagator i zwolennik pracy zdalnej, który czas po pracy spędza z dala od maila, telefonu i świata technologii.
+
+- name: Jakub Gutkowski
+  photo: JakubGutkowski.jpg
+  ln: https://linkedin.com/in/jakubg
+  twitter: https://twitter.com/gutek
+  url: https://blog.gutek.pl
+  specialization: Azure Solutions Architect;Azure Developer;Azure DevOps;
+  facebook: 
+  github: 
+  bio: Tata, mąż, programista, geek. Założyciel devWarsztaty – bezpłatnych warsztatów dla każdego, kto chętnie uczy się i ćwiczy kunszt oprogramowania. Uwielbia bawić się nowościami, uczyć się nowych języków programowania i bibliotek, zapalony uczestnik konferencji, pasjonat poznawania nowych ludzi, zawsze chętny do pomocy. Microsoft MVP.  Naprawdę wierzy, że to, co robi, zmienia świat i pomaga inny.
 
 - name: Łukasz Kałużny
   photo: LukaszKaluzny.jpg
@@ -119,6 +119,20 @@
   github:
   bio: >
     Na co dzień pracownik firmy Microsoft gdzie zajmuje się technologicznym wsparciem największych polskich klientów przy budowie rozwiązań w chmurze Microsoft Azure. Przed Microsoft pracował w firmie integratorskiej, gdzie odpowiedzialny był za realizacje wdrożeń związanych z różnymi dostawcami technologicznymi. Wieloletni autoryzowany trener firmy Microsoft, posiadacz wielu certyfikatów takich jak MCP, MSCA, MCTS, MCITP, MCSE, MCT. Główne zainteresowania dotyczą tematów aplikacyjno-infrastrukturalnych opartych o chmurę Microsoft Azure. W wolnym czasie, pozbawiony laptopa kocha spędzać czas z rodziną jak również pasjonat żeglarstwa oraz motoryzacji.
+
+- name: Tomasz Onyszko
+  photo: TomaszOnyszko.jpg
+  ln: https://www.linkedin.com/in/tomaszonyszko/
+  twitter: https://twitter.com/tonyszko
+  url: https://www.onyszko.com/
+  specialization: Azure Solutions Architect;Azure Security
+  facebook:
+  github:
+  bio: >
+Od lat kilkunastu w branży określanej jako IT. Od dłuższego czasu w okolicach związanych z tożsamością, dostępem, prywatnością – ich zastosowaniem i implementacją. W chwili obecnej patrzy na chmure publiczną z punktu widzenia biznesu i bezpieczeństwa.
+Od czasu do czasu prelegent – TechED, The Expert Conference (wcześniej Directory Expert Conference – to były czasy), Microsoft Technology Summit (MTS). Od 2005 roku z przerwami – 11x Microsoft Most Valuable Professional (MVP).
+Zawodowo - CTO, architekt, jeden z partnerów w Predica.
+W zamierzchłej przeszłości współautor kilku książek, zastępca naczelnego, autor artykułów. Popełniłem pewnie tysiące wpisówi na forach, Usenet i podobnych.
 
 - name: Paweł Potasiński
   photo: PawelPotasinski.jpg
