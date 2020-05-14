@@ -5,7 +5,8 @@
   url: 
   specialization: Azure Security;Azure Infrastructure Architect;Azure Administrator;
   facebook: 
-  github: 
+  github:
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5000806?fullName=Kamil%20Baczyk 
   bio: Kamil Bączyk jest światowej klasy ekspertem do spraw infrastruktury i cyberbezpieczeństwa. Jego zainteresowania zawodowe ogniskują się wokół technologii Microsoft, w szczególności rozwiązań chmurowych takich jak Microsoft 365 i Azure. Co ważne, na wszystkie te obszary patrzy z perspektywy zarządzania incydentami, budowania strategii zarządzania cyberberbezpieczeństwa i podatności na ataki hackerskie. Owocuje to licznymi projektami, przede wszystkim dla klientów korporacyjnych, największych światowych instytucji państwowych i organizacji rządowych. Kamila można również spotkać na prestiżowych konferencjach, gdzie bywa nie tylko prelegentem, ale i mentorem. Dzięki swoim wystąpieniom jest doskonale znany w środowisku IT z łączenia problematyki nowych technologii z potrzebami biznesowymi klientów. Potwierdzeniem tych umiejętności jest uczestnictwo w projektach z całego świata oraz uzyskane przez niego certyfikaty – związane nie tylko ze środowiskiem Microsoft. Kamil jest przede wszystkim pasjonatem, chętnie dzieli się swoją wiedzą z innymi i nieustannie bada nowe technologie. Pozwala mu to nie tylko na doskonalenie szkoleń, które prowadzi, lecz także rozszerzanie swojej oferty o najnowsze zagadnienia z dziedziny IT. Każdego roku bierze udział w konferencjach i projektach, zyskując coraz większe doświadczenie. Prowadzi treningi i konsultacje dla Klientów, którzy oczekują pełnego profesjonalizmu i szerokiej wiedzy. Sam przyznaje, że jest pracoholikiem, więc gdy zajdzie potrzeba, z uporem dąży do znajdowania coraz to nowych rozwiązań i nigdy się nie poddaje!
 
 - name: Marek Grabarz
@@ -16,6 +17,7 @@
   specialization: Azure Solutions Architect;Azure Developer;Azure DevOps;
   facebook: 
   github: 
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003117?fullName=Marek%20Grabarz
   bio: Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer.
 
 - name: Bartłomiej Graczyk
@@ -26,6 +28,7 @@
   specialization: Azure Solutions Architect; Azure Data
   facebook: 
   github: https://github.com/AzureCommunityPL/mentoring/issues/www.datainsiders.space
+  mvp:
   bio: Lead Cloud Solution Architect,Data& AI, Microsoft Niemal dwie dekady doświadczenia w projektowaniu, wdrażaniu i optymalizacji rozwiązań z obszaru Business Intelligence i Data Warehouse. Przez ostatnie lata Bartek współpracuje z klientami i partnerami Microsoft transformując ich rozwiązania z obszaru danych do chmury publicznej. Jeden z głównych ewengelistów technologii takich jak Power BI, Azure Data Explorer czy Azure Synapse Analytics w Polsce i CEE. Ceniony expert w zakresie licencjonowania produktów Microsoft oraz Software Asset Management. Autor wielu publikacji oraz prelegent na konferencjach i warsztatach technologicznych.Posiada liczne certyfikacje m.in. Microsoft Certified Trainer, MCSE Business Intelligence & Data Platform. W latach 2013-2015 uhonorowany tytułem MVP w kategorii SQL Server / Data Platform category. Współtwórca i autor www.datainsiders.space oraz www.sql4you.info. Propagator i zwolennik pracy zdalnej, który czas po pracy spędza z dala od maila, telefonu i świata technologii.
 
 - name: Jakub Gutkowski
@@ -36,6 +39,7 @@
   specialization: Azure Solutions Architect;Azure Developer;Azure DevOps;
   facebook: 
   github: 
+  mvp: https://mvp.microsoft.com/en-us/mvp/Jakub%20Gutkowski-4014207
   bio: Tata, mąż, programista, geek. Założyciel devWarsztaty – bezpłatnych warsztatów dla każdego, kto chętnie uczy się i ćwiczy kunszt oprogramowania. Uwielbia bawić się nowościami, uczyć się nowych języków programowania i bibliotek, zapalony uczestnik konferencji, pasjonat poznawania nowych ludzi, zawsze chętny do pomocy. Microsoft MVP.  Naprawdę wierzy, że to, co robi, zmienia świat i pomaga inny.
 
 - name: Łukasz Kałużny
@@ -44,6 +48,7 @@
   twitter: https://twitter.com/kaluzaaa
   url: https://kaluzny.io/
   specialization: Azure Solutions Architect;Azure Infrastructure Architect;Azure Developer;Azure DevOps;
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/4039745?fullName=%C5%81ukasz%20Ka%C5%82u%C5%BCny
   bio: >
     Pracuje jako doradca technologiczny w zakresie strategii i architektury IT, głównie związanych z technologiami chmurowymi i kontenerowymi. Z Azure związany zawodowo na pełen etat od 2014 roku. Poza pracą prowadzi podcast <a href="http://patoarchitekci.io/">Patoarchitekci</a> o technologii skierowany deweloperów, architektów IT i CTO. Jest aktywny członkiem społeczności IT, na których organizuje warsztaty, meetupy czy występuję na konferencjach. Od 2012 roku Microsoft MVP, w tym Azure.
 
@@ -95,6 +100,7 @@
   specialization: Azure Data
   facebook:
   github:
+  mvp: https://mvp.microsoft.com/en-us/mvp/Tomasz%20Libera-5002596
   bio: >
     MVP Data Platform, MCT. Aktywny członek Data Community, założyciel i lider krakowskiego oddziału grupy, organizator konferencji. Pracuje jako DB Developer, rozwijając system zarządzania uczelnią. Prowadzi szkolenia on-line z zakresu Data Platform na platformie www.kursysql.pl
 
@@ -128,6 +134,7 @@
   specialization: Azure Solutions Architect;Azure Security
   facebook:
   github:
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/4030668?fullName=Tomasz%20Onyszko
   bio: Od lat kilkunastu w branży określanej jako IT. Od dłuższego czasu w okolicach związanych z tożsamością, dostępem, prywatnością – ich zastosowaniem i implementacją. W chwili obecnej patrzy na chmurę publiczną z punktu widzenia biznesu i bezpieczeństwa.
     Od czasu do czasu prelegent – TechED, The Expert Conference (wcześniej Directory Expert Conference – to były czasy), Microsoft Technology Summit (MTS). Od 2005 roku z przerwami – 11x Microsoft Most Valuable Professional (MVP).
     Zawodowo - CTO, architekt, jeden z partnerów w Predica.
@@ -141,6 +148,7 @@
   specialization: Azure Data
   facebook:
   github:
+  mvp: https://mvp.microsoft.com/en-us/mvp/Pawel%20Potasinski-4020750
   bio: >
     Paweł jako CTO w ElitMind koncentruje się na określaniu kierunków technologicznych firmy i przekształcaniu jej Klientów w odnoszące sukcesy organizacje oparte na danych. Były pracownik Microsoft (Data Insights Product Manager dla Polski). W 2007 roku Paweł założył Polish SQL Server User Group (PLSSUG), obecnie znane jako Data Community Poland. Paweł był prelegentem na wielu konferencjach w Polsce i na świecie (np. SQLDay, SQLSaturday, European PASS Conference). W swojej karierze był siedmiokrotnie nagradzany Microsoft Most Valuable Professional (MVP). Fan chmury publicznej, wizualizacji danych i automatyzacji procesów. Prywatnie ojciec trojga dzieci i zapalony biegacz.
 
@@ -164,6 +172,7 @@
   specialization: Azure Solutions Architect;Azure Infrastructure Architect;Azure Security;
   facebook: 
   github: 
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5001618?fullName=Michal%20Smereczynski
   bio: Microsoft MVP w kategorii Microsoft Azure. Wiceprezes EntropyGuru.com. Architekt rozwiązań opartych o platformę Microsoft Azure z ponad pięcioletnim doświadczeniem. Z Azure pracuje od prawie 10 lat. Konsultant i Cloud Solution Provider. Ewangelista rozwiązań Open Source i interoperacyjności. Założyciel i animator Polskiej Grupy Użytkowników Microsoft Azure.
 
 - name: Sławek Stanek
@@ -174,6 +183,7 @@
   specialization: Azure Infrastructure Architect;Azure Administrator;
   facebook: 
   github: 
+  mvp: https://mvp.microsoft.com/en-us/mvp/Slawek%20Stanek-5002603
   bio: Engaged in IT professionally for 13 years. Microsoft MVP Azure, Azure User Group Poland Leader in Greater Poland district. Systems Architect and Migration Lead. Passionate of Microsoft''s technologies in the areas of public Azure Cloud. As a promoter of modern solutions for Data Center, talks every day about the need for IT development and digital transformation.
 
 - name: Emil Wasilewski
@@ -184,6 +194,7 @@
   specialization: Azure Infrastructure Architect;Azure Administrator;Azure Security
   facebook:
   github: https://github.com/eklime
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5001765?fullName=Emil%20Wasilewski
   bio: >
     Emil jest jednym z liderów polskiej społeczności zebranej wokół Microsoft Azure. Pod koniec 2015 roku zaczął organizować spotkania grupy w Warszawie, a już na początku marca 2016 był jednym z organizatorów pierwszej edycji konferencji AzureDay Poland.
     Do dziś organizował, lub wspólorganizował ponad 10 konferencji dla w sumie ponad 1500 osób.
@@ -202,6 +213,7 @@
   specialization: Azure Data Scientist;Azure Data;
   facebook: 
   github: 
+  mvp: https://mvp.microsoft.com/en-us/mvp/Damian%20Widera-4024603
   bio: Software engineer with 20+ years of professional experience in all aspects of software development. Damian participated in a number of projects in international environments and have practical knowledge of procedures and tools which are necessary for successful implementation of such projects. Now he focuses on building solutions based on all possible environments (including complex database driven systems, database tuning and optimization) including all kinds of Azure Data aspects. Damian is experienced Microsoft speaker and columnist, currently holds MVP title as Microsoft Data Platform guru. Damian is responsible now for creating and maintaining SQL Server Community in Silesia Region. Damian holds Microsoft Certified Trainer certificate from 2004.
 
 - name: Tomasz Wiśniewski
