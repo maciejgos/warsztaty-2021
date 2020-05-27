@@ -91,7 +91,7 @@ permalink: /mentee/
 
         function notAuthorized() {
             try { document.getElementById('spinner').remove(); } catch { }
-            document.getElementById('zgloszenia').innerHTML = '<div class="alert alert-danger" role="alert">Użyj własciwego linku albo skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a></div>'
+            document.getElementById('zgloszenia').innerHTML = '<div class="alert alert-danger" role="alert">Użyj właściwego linku albo skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a></div>'
         }
 
         function showError(error) {
@@ -132,9 +132,9 @@ permalink: /mentee/
                         var code = fetch('https://mentoring-func.azurewebsites.net/api/send?code=' + code, { method: "POST", body: JSON.stringify(selected) })
                             .then(response => {
                                 if (response.status == 200) {
-                                    showOk('Przyjeliśmy zgłoszenie od Ciebie! Niedługo prześlamy dane kandydata/kandydatów. Jeśli coś chcesz zmienć skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a>');
+                                    showOk('Przyjęliśmy zgłoszenie od Ciebie! Niedługo prześlemy dane kandydata/kandydatów. Jeśli coś chcesz zmienić skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a>');
                                 } else if (response.status == 403) {
-                                    showError('Już mamy od Ciebie wybrane zgłoszenia! Jeśli coś chcesz zmienć skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a>');
+                                    showError('Już mamy od Ciebie wybrane zgłoszenia! Jeśli coś chcesz zmienić skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a>');
                                 } else {
                                     showError(response.statusText);
                                 }
@@ -144,7 +144,7 @@ permalink: /mentee/
                     }
                 }
             } else {
-                alert("Wybierz przynajmiej jedno zgłoszenie")
+                alert("Wybierz przynajmniej jedno zgłoszenie")
             }
         }
 
