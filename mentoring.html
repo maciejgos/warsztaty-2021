@@ -1,0 +1,186 @@
+---
+permalink: /mentee/
+---
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Azure Community Mentoring Program 2020</title>
+    <meta name="theme-color" content="#563d7c">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <script>
+        function get() {
+            var code = getParameterByName('code');
+            if (code != null) {
+                var code = fetch('https://mentoring-func.azurewebsites.net/api/read?code=' + code).then(handleErrorsRead)
+                    .then(response => response.json())
+                    .then((body) => {
+                        for (var i in body) {
+                            document.getElementById("zgloszenia").innerHTML += '<div id="' + body[i].Id + '" class="jumbotron mt-3"></div>'
+                            for (var key in body[i]) {
+                                if ((body[i].hasOwnProperty(key) && key == "Id")) {
+                                    document.getElementById('form').innerHTML += '<div class="form-group form-check"><input class="form-check-input" type="checkbox" value="' + body[i][key] + '" id="cb' + body[i][key] + '"><label class="form-check-label" for="cd' + body[i][key] + '"><a href="#' + body[i][key] + '">Zgłoszenie ' + body[i][key] + '</a></label></div>'
+                                    document.getElementById(body[i].Id).innerHTML += '<h4><a id="' + body[i][key] + '" href="#' + body[i][key] + '">Zgłoszenie ' + body[i][key] + '</a></h4>'
+                                }
+                                if ((body[i].hasOwnProperty(key)) && key != "Id") {
+                                    document.getElementById(body[i].Id).innerHTML += '<h4>' + key + '</h4><p>' + body[i][key] + '</p>'
+                                }
+                            }
+                            document.getElementById(body[i].Id).innerHTML += '<button type="button" class="btn btn-primary" onclick="check(' + body[i].Id + ')">Wybieram kandydata</button>'
+                        }
+                        document.getElementById('form').innerHTML += '<button type="button" class="btn btn-primary" onclick="send()">Wyślij wybrane zgłoszenia</button>'
+                        try { document.getElementById('spinner').remove(); } catch { }
+                    })
+                    .catch(error => showError(error));
+            } else {
+                notAuthorized();
+            }
+        }
+
+        function handleErrorsRead(response) {
+            if (!response.ok) {
+                if (response.status == '401') {
+                    notAuthorized();
+                    throw Error();
+                } else if (response.status == '403') {
+                    document.getElementById('spinner').remove();
+                    document.getElementById('zgloszenia').innerHTML = '<div class="alert alert-warning" role="alert">Wybrałeś już podopiecznego. Niedługo powinieneś dostać mail z danymi kontaktowymi. Jeśli tak się nie stało skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a></div>'
+                    throw Error();
+                }
+                else {
+                    throw Error(response.statusText);
+                }
+            }
+            return response;
+        }
+
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        function notAuthorized() {
+            try { document.getElementById('spinner').remove(); } catch { }
+            document.getElementById('zgloszenia').innerHTML = '<div class="alert alert-danger" role="alert">Użyj własciwego linku albo skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a></div>'
+        }
+
+        function showError(error) {
+            try { document.getElementById('spinner').remove(); } catch{ }
+            console.dir(error);
+            if (error != "Error") {
+                document.getElementById('zgloszenia').innerHTML = '<div class="alert alert-danger" role="alert">' + error + '</div>'
+            }
+        }
+
+        function showOk(ok) {
+            try { document.getElementById('spinner').remove(); } catch{ }
+            document.getElementById('zgloszenia').innerHTML = '<div class="alert alert-success" role="alert">' + ok + '</div>'
+        }
+
+        function check(id) {
+            if (confirm("Czy na pewno wybierasz tą kandydaturę?")) {
+                document.getElementById('cb' + id).checked = true;
+                $(document).ready(function () {
+                    $(window).scrollTop(0);
+                });
+            } else {
+            }
+        }
+
+        function send() {
+            var checkboxes = document.getElementsByClassName('form-check-input')
+            selected = [];
+            for (var checkbox of checkboxes) {
+                if (checkbox.checked)
+                    selected.push(checkbox.value);
+            }
+            if (selected.length > 0) {
+                if (confirm("Czy na pewno wysłać?")) {
+                    console.log(selected);
+                    var code = getParameterByName('code');
+                    if (code != null) {
+                        var code = fetch('https://mentoring-func.azurewebsites.net/api/send?code=' + code, { method: "POST", body: JSON.stringify(selected) })
+                            .then(response => {
+                                if (response.status == 200) {
+                                    showOk('Przyjeliśmy zgłoszenie od Ciebie! Niedługo prześlamy dane kandydata/kandydatów. Jeśli coś chcesz zmienć skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a>');
+                                } else if (response.status == 403) {
+                                    showError('Już mamy od Ciebie wybrane zgłoszenia! Jeśli coś chcesz zmienć skontaktuj się z <a href="mailto:kontakt@azurecommunity.pl">organizatorami</a>');
+                                } else {
+                                    showError(response.statusText);
+                                }
+                            }).catch(error => showError(error));
+                    } else {
+                        notAuthorized();
+                    }
+                }
+            } else {
+                alert("Wybierz przynajmiej jedno zgłoszenie")
+            }
+        }
+
+    </script>
+</head>
+
+<body onload="get()">
+    <div class="container">
+        <div class="jumbotron mt-3">
+            <h1>Azure Community Mentoring Program 2020</h1>
+            <p class="lead">Wybierz z listy swojego podopiecznego!</p>
+            <form id="form">
+
+            </form>
+        </div>
+        <div class="d-flex justify-content-center" id="spinner">
+            <div class="spinner-border m-5" role="status" style="width: 4rem; height: 4rem;">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <section id="zgloszenia">
+        </section>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
