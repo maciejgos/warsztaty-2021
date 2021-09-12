@@ -345,16 +345,19 @@
 						<div class="meta">
 							<h4 class="time mb-3">{{ item.name }}</h4>
                             <div class="profile">
-                                <a href="#modal-speaker-{{ forloop.index }}" data-toggle="modal" data-target="#modal-speaker-{{ forloop.index }}">
-                                    <img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/{{ item.photo }}" alt="">
-                                </a>
+								<a href="#modal-speaker-{{ forloop.index }}" data-toggle="modal" data-target="#modal-speaker-{{ forloop.index }}">
+									<img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/{{ item.photo }}" alt="">
+									{% if item.mvp %}
+                                            <i class="icon-mvp-1" style="font-size: 2rem; position: absolute; right: 2.5rem; bottom: 2.8rem"></i>
+                                    {% endif %}
+								</a>
                                 <div class="name"><a class="theme-link" href="#modal-speaker-{{ forloop.index }}" data-toggle="modal" data-target="#modal-speaker-{{ forloop.index }}">Poznaj prowadzącego</a></div>
                             </div><!--//profile-->
 						</div><!--//meta-->
 						<div class="content">
 							<h3 class="title mb-3">{{ item.workshop }}</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>{{ item.level }}</div>
-                            <div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>{{ item.dates }}</div>
+							<div class="location mb-1"><i class="fas fa-chart-line me-2"></i> {{ item.level }}</div>
+                            <div class="location mb-3"><i class="fas fa-calendar-check me-2"></i> {{ item.dates }}</div>
 							<div class="desc">{{ item.description }}</div>
 						</div><!--//content-->
 					</div><!--//item-->
@@ -494,7 +497,6 @@
 		<!--//container-->
 	</footer>
 	{% for item in site.data.speakers %}
-	{% assign specialization = item.specialization | split: ";"%}
 	<!-- Modal Speaker -->
 	<div class="modal modal-speaker modal-speaker-{{ forloop.index }}" id="modal-speaker-{{ forloop.index }}"
 		 tabindex="-1" role="dialog" aria-labelledby="speaker-{{ forloop.index }}-ModalLabel" aria-hidden="true">
@@ -521,6 +523,13 @@
 									</a>
 								</li>
 								{% endif %}
+								{% if item.mvp %}
+                                <li class="list-inline-item">
+                                    <a href="{{ item.mvp }}">
+                                        <i class="icon-mvp-1"></i>
+                                    </a>
+                                </li>
+                                {% endif %}
 								{% if item.twitter %}
 								<li class="list-inline-item">
 									<a href="{{ item.twitter }}">
@@ -551,10 +560,7 @@
 								{% endif %}
 							</ul>
 							<!--//social-list-->
-							{% for item in specialization %}
-							<span class="badge badge-info">{{ item }}</span>
-							{% endfor %}
-						</div>
+                        </div>
 						<!--//media-body-->
 					</div>
 					<!--//media-->

@@ -1,9 +1,51 @@
-- name: Agnieszka Cent
+- name: Marek<br/>Grabarz
+  photo: MarekGrabarz.jpg
+  ln: https://www.linkedin.com/in/grabarz/
+  twitter: https://twitter.com/marekgrabarz
+  url: https://grabarz.pl
+  facebook: 
+  github: 
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003117?fullName=Marek%20Grabarz
+  bio: Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer.
+  workshop: APIM
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
+
+- name: Michał Furmankiewicz
+  photo: MichalFurmankiewicz.jfif
+  ln: https://www.linkedin.com/in/
+  twitter: https://twitter.com/
+  url: 
+  facebook: 
+  github: 
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003557?fullName=Michal%20Furmankiewicz
+  bio: 
+  workshop: OpenShift
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
+
+- name: Robert Przybylski
+  photo: RobertPrzybylski.jfif
+  ln: https://www.linkedin.com/in/
+  twitter: https://twitter.com/
+  url: 
+  facebook: 
+  github: 
+  mvp: https://mvp.microsoft.com/en-us/PublicProfile/5004134?fullName=Robert%20%20Przybylski
+  bio: 
+  workshop: AAD identity, governance
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
+
+- name: Agnieszka<br/>Cent
   photo: AgnieszkaCent.jpg
   ln: https://www.linkedin.com/in/agnieszka-cent/
   twitter: 
   url: 
-  specialization: Azure Security;Azure Infrastructure Architect;Azure Administrator;
+
   facebook: 
   github:
   mvp: 
@@ -13,12 +55,11 @@
   level: Poziom podstawowy
   dates: 17/10, 22/11
 
-- name: Maciej Gos
+- name: Maciej<br/>Gos
   photo: MaciejGos.jpg
   ln: https://www.linkedin.com/in/maciejgos/
   twitter: 
   url: 
-  specialization: Azure Security;Azure Infrastructure Architect;Azure Administrator;
   facebook: 
   github:
   mvp: 
@@ -27,3 +68,45 @@
   description: Opis niedostępny
   level: Poziom podstawowy
   dates: 11/10, 12/11
+
+- name: Kamil<br/>Więcek
+  photo: KamilWiecek.jpg
+  ln: https://www.linkedin.com/in/
+  twitter: https://twitter.com/
+  url: 
+  facebook: 
+  github: 
+  mvp: 
+  bio: 
+  workshop: Landing zone
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
+
+- name: Paweł<br/>Haracz
+  photo: PawelHaracz.jpg
+  ln: https://www.linkedin.com/in/
+  twitter: https://twitter.com/
+  url: 
+  facebook: 
+  github: 
+  mvp: 
+  bio: 
+  workshop: Boty, Cognitive services
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
+
+- name: Wojciech Sroczyński
+  photo: WojciechSroczynski.png
+  ln: https://www.linkedin.com/in/
+  twitter: https://twitter.com/
+  url: 
+  facebook: 
+  github: 
+  mvp: 
+  bio: 
+  workshop: Wstęp do Azure
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
