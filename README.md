@@ -7,5 +7,5 @@ To run website there are some required components:
 After that you are able to execute whole dev env in Dev Container...
 To run website just type in terminal window:
 ```
-jekyll serve --drafts --watch
+bundle exec jekyll serve -l
 ```
