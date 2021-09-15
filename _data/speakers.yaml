@@ -69,11 +69,25 @@
   facebook: 
   github:
   mvp: 
-  bio: bio
-  workshop: Data Warehouse
-  description: Opis niedostępny
+  bio: >
+    W IT od ponad 15 lat początkowo programista piszący od VB6, Objective-C, Swift na technologiach .NET-owych kończąc. <br />
+    ☁️ Obecnie architekt pasjonat technologii zajmujący się Azure i AWS wiążacy pasję do chmury z pracą. <br />
+    🚀 Staram się implementować i weryfikować możliwie jak najwięcej rozwiązań w praktyce.
+  workshop: Azure DevSecOps, czyli jak efektywnie budować, wdrażać aplikacje oraz infrastrukturę
+  description: >
+    Warsztat na którym poznamy jak powinno się budować proces SDLC (Software Development Lifecycle) połączone z IaaC (Infrastructure As A Code) z wykorzystanie platformy Azure.
+    
+    W ramach warsztatów poznamy narzędzia takie jak: <br />
+
+      👉 Azure DevOps w ujęciu YAML <br />
+      👉 Podstawy Azure Policy <br />
+      👉 Terraform <br />
+      👉 Checkov <br />
+      👉 Atlantis <br />
+      👉 Snyk <br />
+
   level: Poziom podstawowy
-  dates: 11/10, 12/11
+  dates: [TBD]
 
 - name: Kamil<br/>Więcek
   photo: KamilWiecek.jpg
