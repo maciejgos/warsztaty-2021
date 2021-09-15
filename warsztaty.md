@@ -15,7 +15,7 @@ Nękanie obejmuje obraźliwe komentarze nawiązujące do płci, orientacji seksu
 
 Uczestnicy proszeni są o zaprzestanie nieodpowiedniego zachowania oraz są zobowiązani do natychmiastowego podporządkowania się zasadom.
 
-Organizatorzy i mentorzy również są podmiotem polityki przeciw nękaniu.
+Organizatorzy i prowadzący również są podmiotem polityki przeciw nękaniu.
 
 Jeżeli uczestnik będzie brał udział w nękaniu, organizatorzy mogą podjąć stosowne działania które uznają za odpowiednie, włączając w to ostrzeżenie lub wydalenie nękającej osoby z programu.
 
