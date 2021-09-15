@@ -1,10 +1,13 @@
-# [TODO] Kodeks postępowania w programie mentoringowym
+# Kodeks postępowania w programie 'Warsztaty z Azure Community 2021'
 
-Wszyscy uczestnicy, organizatorzy i mentorzy w naszym programie mentoringowym są zobowiązani do zaakceptowania następującego kodeksu postępowania. Organizatorzy będą egzekwować te przepisy podczas programu. Oczekujemy współpracy od wszystkich uczestników w celu zapewnienia bezpiecznego środowiska dla każdego.
+Wszyscy uczestnicy, organizatorzy i prowadzący w naszym programie warsztatowym są zobowiązani do zaakceptowania następującego kodeksu postępowania. 
+Organizatorzy będą egzekwować te przepisy podczas programu. Oczekujemy współpracy od wszystkich uczestników w celu zapewnienia bezpiecznego środowiska dla każdego.
 
 ## Szybka wersja
 
-Nasz program dedykowany jest dostarczaniu wolnych od nękania doświadczeń dla każdego, niezależnie od płci, orientacji seksualnej, niepełnosprawności, aparycji, wielkości ciała, rasy czy religii. Nie tolerujemy molestowania uczestników programu w żadnej formie. Seksistowski język oraz obraza innych uczestników jest nieodpowiednia dla jakiejkolwiej aktywności, włączając w to internetowe media. Uczestnicy programu nieprzestrzegający tych zasad mogą zostać ukarani lub wydaleni z programu za decyzją organizatorów.
+Nasz program dedykowany jest dostarczaniu wolnych od nękania doświadczeń dla każdego, niezależnie od płci, orientacji seksualnej, niepełnosprawności, aparycji, wielkości ciała, rasy czy religii. 
+Nie tolerujemy molestowania uczestników programu w żadnej formie. Seksistowski język oraz obraza innych uczestników jest nieodpowiednia dla jakiejkolwiej aktywności, włączając w to internetowe media. 
+Uczestnicy programu nieprzestrzegający tych zasad mogą zostać ukarani lub wydaleni z programu za decyzją organizatorów.
 
 ## Mniej szybka wersja
 

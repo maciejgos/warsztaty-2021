@@ -43,17 +43,23 @@
 - name: Agnieszka<br/>Cent
   photo: AgnieszkaCent.jpg
   ln: https://www.linkedin.com/in/agnieszka-cent/
-  twitter: 
+  twitter: https://twitter.com/AgnieszkaCent
   url: 
-
   facebook: 
-  github:
+  github: https://github.com/aryll
   mvp: 
-  bio: bio
-  workshop: Messaging
-  description: Opis niedostępny
-  level: Poziom podstawowy
-  dates: 17/10, 22/11
+  bio: >
+    Nazywam się Agnieszka i na co dzień łączę Azure + .NET, żeby zmieniać życie zwyczajnych ludzi w Afryce panelami słonecznymi i mikro-płatnościami.<br/><br/>
+    ☁️ Wierzę, że dobrze zaprojektowana chmura może zmienić świat i właśnie takich wyzwań szukam.<br/>
+    👩🏻‍🤝‍👨🏽 Pomagam innym zrozumieć jak tworzyć dobre rozwiązania w Azure.<br/>
+    🤝 Cenię doświadczenie i współpracę z kreatywnymi ludźmi.<br/>
+    🔋 Wiem, że IoT i chmury to kolejny etap w rozwoju technologii.
+  workshop: Messaging w Azure czyli jak wykorzystać wzorce oparte na zdarzeniach w asynchronicznych architekturach
+  description: >
+    Jakie zasoby w Azure możemy wykorzystać do zaprojektowania asynchronicznej komunikacji? Co powinniśmy wiedzieć łącząc serwisy poprzez REST? Czy messaging jest magiczną technologią rozwiązującą problemy? I dlaczego podejmując decyzje projektowe warto wracać do źródeł? <br/><br/>
+    Na te i inne pytania spróbujemy odpowiedzieć podczas warsztatu. Spojrzymy pod innym kątem na messaging, porozmawiamy o tym co oferuje Azure i jak to wykorzystać w architekturach event-driven. Spróbujemy zrozumieć różnice między wzorcami Publisher/Subscriber i Request/Reply. Poznamy ideę event-sourcingu opartego na Azure i zastanowimy się czy zawsze warto go używać. Już nie mogę się doczekać naszych dyskusji!
+  level: dla osób zajmujących się na co dzień projektowaniem/implementowaniem rozwiązań IT (tech leadów, architektów, seniorów)
+  dates: czwartki, godzina 19:00 (21/10, 28/10, 4/11, 18/11)
 
 - name: Maciej<br/>Gos
   photo: MaciejGos.jpg
@@ -93,6 +99,20 @@
   mvp: 
   bio: 
   workshop: Boty, Cognitive services
+  description: Opis niedostępny
+  level: Poziom niedostępny
+  dates: 
+
+- name: Andrzej Kokociński
+  photo: AndrzejKokocinski.jfif
+  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
+  twitter: https://twitter.com/
+  url: 
+  facebook: 
+  github: 
+  mvp: 
+  bio: 
+  workshop: Security, Identity, Networking
   description: Opis niedostępny
   level: Poziom niedostępny
   dates: 
