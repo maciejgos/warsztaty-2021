@@ -73,9 +73,9 @@
     W IT od ponad 15 lat początkowo programista piszący od VB6, Objective-C, Swift na technologiach .NET-owych kończąc. <br />
     ☁️ Obecnie architekt pasjonat technologii zajmujący się Azure i AWS wiążacy pasję do chmury z pracą. <br />
     🚀 Staram się implementować i weryfikować możliwie jak najwięcej rozwiązań w praktyce.
-  workshop: Azure DevSecOps, czyli jak efektywnie budować, wdrażać aplikacje oraz infrastrukturę
+  workshop: Azure DevOps, czyli jak budować, wdrażać aplikacje oraz infrastrukturę na platformę Azure 
   description: >
-    Warsztat na którym poznamy jak powinno się budować proces SDLC (Software Development Lifecycle) połączone z IaaC (Infrastructure As A Code) z wykorzystanie platformy Azure.
+    Warsztat na którym poznamy jak powinno się budować proces SDLC (Software Development Lifecycle) połączone z IaaC (Infrastructure As A Code) z wykorzystaniem platformy Azure.
     
     W ramach warsztatów poznamy narzędzia takie jak: <br />
 
@@ -87,7 +87,7 @@
       👉 Snyk <br />
 
   level: Poziom podstawowy
-  dates: [TBD]
+  dates: wtorki, godzina 18:00 (19/10, 26/10, 9/11, 16/11)
 
 - name: Kamil<br/>Więcek
   photo: KamilWiecek.jpg
