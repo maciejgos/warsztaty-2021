@@ -12,21 +12,30 @@
   level: poziom niedostępny
   requirements: 
   dates: 
+  limit: maksymalnie 20 osób
 
 - name: Michał Furmankiewicz
   photo: MichalFurmankiewicz.jfif
-  ln: https://www.linkedin.com/in/
-  twitter: https://twitter.com/
+  ln: https://www.linkedin.com/in/mifurm/
+  twitter: https://twitter.com/mifurm
   url: 
   facebook: 
   github: 
   mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003557?fullName=Michal%20Furmankiewicz
-  bio: 
+  bio: >
+    Szef Działu Konsultingu w firmie Chmurowisko, Microsoft MVP Azure i Microsoft Certified Trainer. Architekt rozwiązań chmurowych, sprawnie łączący potrzeby biznesu z możliwościami technologii.<br/>
+    <br/>
+    Z branżą IT związany od ponad 16 lat. Pracował zarówno dla dużych międzynarodowych organizacji jak i mniejszy polskich firm. Chmurę postrzega jako jedno z narzędzi służących do transformacji firmy. W wolnym czasie występuje na konferencjach, meetupach lub wykłada na uczelni. Kiedy czasu jest naprawdę dużo, zakłada słuchawki i pisze kod. Tylko dla siebie i dla zabawy.
   workshop: Terraform w Azure
-  description: Opis niedostępny
-  level: poziom niedostępny
-  requirements:
-  dates: 
+  description: >
+    👉 Wprowadzenie do Terraform i Azure, przygotowanie środowiska do pracy<br/>
+    👉 Budowa sieci w Azure za pomocą Terraform – podstawowe elementy<br/>
+    👉 Podstawowe usługi infrastruktury w Azure i Terraform<br/>
+    👉 Wprowadzenie do modułów
+  level: poziom podstawowy
+  requirements: potrzebna będzie subskrypcja z uprawnieniami Contributor lub Owner (najchętniej) do całej subskrypcji lub wybranej grupy zasobów
+  dates: piątki, godzina 18:00 (23/10, 6/11, 20/11, 27/11)
+  limit: maksymalnie 15 osób
 
 - name: Robert Przybylski
   photo: RobertPrzybylski.png
@@ -68,6 +77,7 @@
   level: poziom podstawowy
   requirements: potrzebne będzie środowisko testowe wraz z licencją EMS E5 Free trial  (Azure AD Premium P2)
   dates: środy, godzina 19:00 (13/10, 20/10, 27/10, 3/11)
+  limit: maksymalnie 20 osób
 
 - name: Agnieszka<br/>Cent
   photo: AgnieszkaCent.jpg
@@ -89,10 +99,11 @@
     👉 Co powinniśmy wiedzieć łącząc serwisy poprzez REST? <br/>
     👉 Czy messaging jest magiczną technologią rozwiązującą problemy? <br/>
     👉 I dlaczego podejmując decyzje projektowe warto wracać do źródeł? <br/><br/>
-    Na te i inne pytania spróbujemy odpowiedzieć podczas warsztatu. Spojrzymy pod innym kątem na messaging, porozmawiamy o tym co oferuje Azure i jak to wykorzystać w architekturach event-driven. Spróbujemy zrozumieć różnice między wzorcami Publisher/Subscriber i Request/Reply. Poznamy ideę event-sourcingu opartego na Azure i zastanowimy się czy zawsze warto go używać. Już nie mogę się doczekać naszych dyskusji!
+    Na te i inne pytania spróbujemy odpowiedzieć podczas warsztatu. Spojrzymy pod innym kątem na messaging, porozmawiamy o tym co oferuje Azure i jak to wykorzystać w architekturach event-driven. Spróbujemy zrozumieć różnice między wzorcami Publisher/Subscriber i Request/Response. Poznamy ideę event-sourcingu opartego na Azure i zastanowimy się czy zawsze warto go używać. Już nie mogę się doczekać naszych dyskusji!
   level: poziom średniozaawasnowany
-  requirements: wymagana jest przynajmniej podstawowa znajomość projektowania/implementowania rozwiązań IT
+  requirements: wymagana jest przynajmniej podstawowa znajomość projektowania/implementowania rozwiązań IT w oparciu o (mikro)serwisy
   dates: czwartki, godzina 19:00 (21/10, 28/10, 4/11, 18/11)
+  limit: maksymalnie 15 osób
 
 - name: Maciej<br/>Gos
   photo: MaciejGos.jpg
@@ -122,6 +133,7 @@
   level: poziom podstawowy
   requirements: brak dodatkowych wymagań
   dates: wtorki, godzina 18:00 (19/10, 26/10, 9/11, 16/11)
+  limit: maksymalnie 15 osób
 
 - name: Kamil<br/>Więcek
   photo: KamilWiecek.jpg
@@ -132,11 +144,12 @@
   github: 
   mvp: 
   bio: 
-  workshop: Budowa Landing-Zone self-service dla organizacj
+  workshop: Budowa Landing-Zone self-service dla organizacji
   description: Opis niedostępny
   level: poziom niedostępny
   requirements:
   dates: 
+  limit: maksymalnie 20 osób
 
 - name: Paweł<br/>Haracz
   photo: PawelHaracz.jpg
@@ -151,19 +164,20 @@
   description: Warsztaty przedstawią gotowe do użycia usługi AI które nie wymagają wiedzy zakresu algorytmiki, uczenia maszynowego. Pokażą jak w prosty sposób można zintegrować i wykorzystać je w swoich aplikacjach i projektach. 
   level: poziom podstawowy
   requirements: przynajmniej podstawowa znajomość programowania (C#, Javascript, Java lub python) oraz korzystania z REST (Postman)
-  dates: środy 18:30 (3/11, 10/11, 17/11, 24/11)
+  dates: środy, godzina 18:30 (3/11, 10/11, 17/11, 24/11)
+  limit: maksymalnie 20 osób
 
-- name: Andrzej Kokociński
-  photo: AndrzejKokocinski.jfif
-  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
-  twitter: https://twitter.com/
-  url: 
-  facebook: 
-  github: 
-  mvp: 
-  bio: 
-  workshop: Security, Identity, Networking
-  description: Opis niedostępny
-  level: Poziom niedostępny
-  requirements:
-  dates: 
+#- name: Andrzej Kokociński
+#  photo: AndrzejKokocinski.jfif
+#  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
+#  twitter: https://twitter.com/
+#  url: 
+#  facebook: 
+#  github: 
+#  mvp: 
+#  bio: 
+#  workshop: Security, Identity, Networking
+#  description: Opis niedostępny
+#  level: Poziom niedostępny
+#  requirements:
+#  dates: 

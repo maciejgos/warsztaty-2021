@@ -303,9 +303,14 @@
 						Cenimy praktyczną wiedzę popartą doświadczeniem więc naszym celem jest, żeby
 						każdy uczestnik wyniósł z warsztatów dobre praktyki, a nie suchą wiedzę.
 					</p>
-                    <p>
-                        Każdy z prowadzących jest unikalny i tak samo unikalna jest każda ze ścieżek warsztatowych. Chcemy być elastyczni i dopasować się do Waszych potrzeb!
-                        Dlatego liczymy na Wasze zaangażowanie i aktywność podczas warsztatów!
+					<p>
+						Każdy z prowadzących jest unikalny i tak samo unikalna jest każda ze ścieżek warsztatowych. Chcemy być elastyczni i dopasować się do Waszych potrzeb!
+						Dlatego liczymy na Wasze zaangażowanie i aktywność podczas warsztatów!
+					</p>
+					<p>
+                        <b>Ilość miejsc na każdy z warsztatów jest ograniczona, decyduje kolejność zgłoszeń.</b> 
+                        Każde zgłoszenie będzie sprawdzone przez prowadzących pod kątem doświadczenia uczestnika (dla warsztatów o poziomie wyższym niż podstawowy) - w przypadku podejrzenia, że warsztat może być za trudny dla uczestnika organizatorzy mogą odrzucić zgłoszenie.
+                        W przypadku dużej liczby zgłoszeń, osoby które zapiszą się na więcej niż jeden warsztat mogą zostac poproszone przez organizatorów o wybranie tylko jednej ścieżki warsztatowej.
                     </p>
 				</div>
 			</div>
@@ -339,7 +344,8 @@
 							<h3 class="title mb-3">{{ item.workshop }}</h3>
 							<div class="location mb-1"><i class="fas fa-chart-line me-2"></i> {{ item.level }}</div>
 							<div class="location mb-1"><i class="fas fa-calendar-check me-2"></i> {{ item.dates }}</div>
-                            <div class="location mb-3"><i class="fas fa-cubes me-2"></i> {{ item.requirements }}</div>
+							<div class="location mb-1"><i class="fas fa-people-arrows me-2"></i> {{ item.limit }}</div>
+							<div class="location mb-3"><i class="fas fa-cubes me-2"></i> {{ item.requirements }}</div>
 							<div class="desc">{{ item.description }}</div>
 						</div><!--//content-->
 					</div><!--//item-->
