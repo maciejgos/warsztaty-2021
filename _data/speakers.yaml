@@ -9,7 +9,8 @@
   bio: Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer.
   workshop: APIM
   description: Opis niedostępny
-  level: Poziom niedostępny
+  level: poziom niedostępny
+  requirements: 
   dates: 
 
 - name: Michał Furmankiewicz
@@ -23,22 +24,50 @@
   bio: 
   workshop: Terraform w Azure
   description: Opis niedostępny
-  level: Poziom niedostępny
+  level: poziom niedostępny
+  requirements:
   dates: 
 
 - name: Robert Przybylski
-  photo: RobertPrzybylski.jfif
-  ln: https://www.linkedin.com/in/
-  twitter: https://twitter.com/
-  url: 
-  facebook: 
-  github: 
+  photo: RobertPrzybylski.png
+  ln: https://www.linkedin.com/in/przybylskirobert
+  twitter: https://twitter.com/robert_przyb
+  url: http://www.azureblog.pl
+  facebook: https://www.facebook.com/tenPrzybylskiRobert
+  github: https://github.com/przybylskirobert
   mvp: https://mvp.microsoft.com/en-us/PublicProfile/5004134?fullName=Robert%20%20Przybylski
-  bio: 
-  workshop: AAD identity, governance
-  description: Opis niedostępny
-  level: Poziom niedostępny
-  dates: 
+  bio: >
+    Digital Advisor / Security Architect @ Predicagroup, Microsoft MVP<br/>
+    Na codzień pomagam klientom na całym świecie w projektach od momentu planowania, zarządzania oraz dostarczenia.<br/>
+    Moją specializacją jest security w Azure oraz świecie on-premisses<br/>
+    Od czasu do czasu pomagam ratować firmy w ramach compromise recovery.<br/>
+    Regularnie wystepuję na meetupach oraz konferencjach w Polsce jak i za granicą.
+  workshop: Bezpieczeństwo w Azure AD
+  description: >
+    👉 Dostęp Awaryjny, Azure Identity Governance<br/>
+    Pierwsza z czterech sesji dotyczących bezpieczeństwa Azure AD, podczas której poruszymy tematy dotyczące podstaw zabezpieczeń Azure AD oraz Azure Identity Governance.<br/>
+    Warsztat będzie połączeniem teorii oraz praktyki.<br/>
+    Słowa kluczowe - BreakGlass Account, Azure AD, Application Consent, MFA, Conditional Access, Identity Governance, Entitlement Management, Access Package<br/>
+    <br/>
+    👉 Bezpieczna współpraca z gośćmi<br/>
+    Druga z czterech sesji dotyczących bezpieczeństwa Azure AD, podczas której poruszymy tematy dotyczące bezpiecznej współpracy z gośćmi przy użyciu Entitlement Managment<br/>
+    Warsztat będzie połączeniem teorii oraz praktyki.<br/>
+    Słowa kluczowe - Azure AD, MFA, Conditional Access, Identity Governance, Entitlement Management, Access Package, Terms of Use<br/>
+    <br/>
+    👉 PIM oraz Access Reviews<br/>
+    Trzecia z czterech sesji dotyczących bezpieczeństwa Azure AD, podczas której poruszymy tematy dotyczące czasowego przypisywania uprawnień do kont administracyjnych, zarządzania nimi oraz okresowym sprawdzaniem przypisanych uprawnień jak i dostepów.<br/>
+    Warsztat będzie połączeniem teorii oraz praktyki.<br/>
+    Słowa kluczowe - Azure AD, MFA, Identity Governance, Entitlement Management, Access Package, Privileged Identity Management, Access Reviews<br/>
+     <br/>
+    👉 Passwordless w Azure AD.<br/>
+    Ostatnia z czterech sesji dotyczących bezpieczeństwa Azure AD, podczas której poruszymy tematy passwordless oraz jego użycia w kontekście kluczy sprzętowych oraz aplikacji. Poruszymy także temat dostępu awaryjnego do konta.<br/>
+    Warsztat będzie połączeniem teorii oraz praktyki.<br/>
+    Slowa kluczowe - Azure AD, MFA, Fido2, Passwordless, Temporarry Access Pass, Authenticator<br/>
+    <br/>
+    🎁 Bonus: Dla najbardziej aktywnych uczestników pierwszych 2 warsztatów przewidziane są nagrody (3 na warsztat) - klucze FIDO2 które będą użyte podczas ostatniego warsztatu<br/>
+  level: poziom podstawowy
+  requirements: potrzebne będzie środowisko testowe wraz z licencją EMS E5 Free trial  (Azure AD Premium P2)
+  dates: środy, godzina 19:00 (13/10, 20/10, 27/10, 3/11)
 
 - name: Agnieszka<br/>Cent
   photo: AgnieszkaCent.jpg
@@ -56,9 +85,13 @@
     🔋 Wiem, że IoT i chmury to kolejny etap w rozwoju technologii.
   workshop: Messaging w Azure czyli jak wykorzystać wzorce oparte na zdarzeniach w asynchronicznych architekturach
   description: >
-    Jakie zasoby w Azure możemy wykorzystać do zaprojektowania asynchronicznej komunikacji? Co powinniśmy wiedzieć łącząc serwisy poprzez REST? Czy messaging jest magiczną technologią rozwiązującą problemy? I dlaczego podejmując decyzje projektowe warto wracać do źródeł? <br/><br/>
+    👉 Jakie zasoby w Azure możemy wykorzystać do zaprojektowania asynchronicznej komunikacji? <br/>
+    👉 Co powinniśmy wiedzieć łącząc serwisy poprzez REST? <br/>
+    👉 Czy messaging jest magiczną technologią rozwiązującą problemy? <br/>
+    👉 I dlaczego podejmując decyzje projektowe warto wracać do źródeł? <br/><br/>
     Na te i inne pytania spróbujemy odpowiedzieć podczas warsztatu. Spojrzymy pod innym kątem na messaging, porozmawiamy o tym co oferuje Azure i jak to wykorzystać w architekturach event-driven. Spróbujemy zrozumieć różnice między wzorcami Publisher/Subscriber i Request/Reply. Poznamy ideę event-sourcingu opartego na Azure i zastanowimy się czy zawsze warto go używać. Już nie mogę się doczekać naszych dyskusji!
-  level: dla osób zajmujących się na co dzień projektowaniem/implementowaniem rozwiązań IT (tech leadów, architektów, seniorów)
+  level: poziom średniozaawasnowany
+  requirements: wymagana jest przynajmniej podstawowa znajomość projektowania/implementowania rozwiązań IT
   dates: czwartki, godzina 19:00 (21/10, 28/10, 4/11, 18/11)
 
 - name: Maciej<br/>Gos
@@ -86,7 +119,8 @@
       👉 Atlantis <br />
       👉 Snyk <br />
 
-  level: Poziom podstawowy
+  level: poziom podstawowy
+  requirements: brak dodatkowych wymagań
   dates: wtorki, godzina 18:00 (19/10, 26/10, 9/11, 16/11)
 
 - name: Kamil<br/>Więcek
@@ -100,22 +134,24 @@
   bio: 
   workshop: Landing zone
   description: Opis niedostępny
-  level: Poziom niedostępny
+  level: poziom niedostępny
+  requirements:
   dates: 
 
 - name: Paweł<br/>Haracz
   photo: PawelHaracz.jpg
-  ln: https://www.linkedin.com/in/
-  twitter: https://twitter.com/
+  ln: https://www.linkedin.com/in/pawelharacz
+  twitter: 
   url: 
   facebook: 
-  github: 
+  github: https://github.com/PawelHaracz
   mvp: 
-  bio: 
-  workshop: Boty, Cognitive services
-  description: Opis niedostępny
-  level: Poziom niedostępny
-  dates: 
+  bio: Profesjonalny inżynier oprogramowania, specjalizujący się w technologiach Microsoft. Zawodu programista, architekt, DevOps. Uwielbiający doradzać oraz edukować  przy wyborze odpowiedniej technologii do wymagań. Inspirator według testu discovery insight.   Podczas pandemii zakochałem się w pieczeniu pizz neapolitańskich
+  workshop: AI as a Service
+  description: Warsztaty przedstawią gotowe do użycia usługi AI które nie wymagają wiedzy zakresu algorytmiki, uczenia maszynowego. Pokażą jak w prosty sposób można zintegrować i wykorzystać je w swoich aplikacjach i projektach. 
+  level: poziom podstawowy
+  requirements: przynajmniej podstawowa znajomość programowania (C#, Javascript, Java lub python) oraz korzystania z REST (Postman)
+  dates: środy 18:30 (3/11, 10/11, 17/11, 24/11)
 
 - name: Andrzej Kokociński
   photo: AndrzejKokocinski.jfif
@@ -129,18 +165,5 @@
   workshop: Security, Identity, Networking
   description: Opis niedostępny
   level: Poziom niedostępny
-  dates: 
-
-- name: Wojciech Sroczyński
-  photo: WojciechSroczynski.png
-  ln: https://www.linkedin.com/in/
-  twitter: https://twitter.com/
-  url: 
-  facebook: 
-  github: 
-  mvp: 
-  bio: 
-  workshop: Wstęp do Azure
-  description: Opis niedostępny
-  level: Poziom niedostępny
+  requirements:
   dates: 
