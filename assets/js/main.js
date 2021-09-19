@@ -72,7 +72,7 @@ $(document).ready(function () {
 
     /* ======= Countdown ========= */
     // set the date we're counting down to
-    var target_date = new Date("May 25, 2020").getTime();
+    var target_date = new Date("October 9, 2021").getTime();
 
     // variables for time units
     var days, hours, minutes, seconds;
