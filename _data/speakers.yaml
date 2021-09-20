@@ -6,13 +6,20 @@
   facebook: 
   github: 
   mvp: https://mvp.microsoft.com/en-us/PublicProfile/5003117?fullName=Marek%20Grabarz
-  bio: Pasjonat technologii i rozwiązań chmurowych, Technology Advisor w Protopia, Microsoft Azure MVP oraz Microsoft Certified Trainer.
-  workshop: APIM
-  description: Opis niedostępny
-  level: poziom niedostępny
-  requirements: 
-  dates: 
-  limit: maksymalnie 20 osób
+  bio: >
+    Specjalista z 18-letnim doświadczeniem w branży IT. Zawodowo głównie koncentruje się na doradztwie technologicznym, architekturze oprogramowania i rozwiązaniach chmurowych. Na swoim koncie posiada liczne osiągnięcia w zakresie doskonalenia procesów. W swojej pracy najbardziej ceni sobie holistyczne podejście do całego procesu, łącząc siłę technologii z bezpieczeństwem, stosownymi normami i przemyślaną strategią. Chętnie dzieli się swoją wiedzą z innymi, od kilku lat nagradzany tytułem MVP w kategorii Microsoft Azure.
+  workshop: Wszystko co musisz wiedzieć, by rozpocząć pracę z Azure API Management.
+  description: >
+    Spotkania będą miały formę szkolenia połączonego z warsztatem. Podczas czterech spotkań wspólnie omówimy i poznamy następujące obszary Azure API Management:</br>
+    👉 Architektura wdrożenia API Management, główne komponenty i konfiguracja. Dostosowanie portalu dewelopera, wraz z wprowadzeniem do tematyki produktów.</br>
+    👉 Konfiguracja API, zarządzanie cyklem życia API, aspekty DevOps oraz IaC dla API Management.</br>
+    👉 Implementacja i debugowanie polityk w API Management</br>
+    👉 Bezpieczeństwo w API Management, monitorowanie i logowanie, utrzymanie usługi.</br></br>
+    Podczas każdego ze spotkań poza wspólną pracą zachęcam wszystkich uczestników do zadawania pytań i wspólnego omawiania napotkanych problemów. Do zobaczenia!
+  level: poziom średniozaawansowany
+  requirements: Wcześniejsze doświadczenie z Azure, doświadczenie związane z integracją API. Własna subskrypcja lub grupa zasobów z uprawnieniami co najmniej contributor. W przypadku braku uprawnień na całej subskrypcji, wcześniejsza rejestracja nastepujących RP: Microsoft.ApiManagement, Microsoft.Insights, Microsoft.OperationalInsights, Microsoft.Network, Microsoft.KeyVault.
+  dates: wtorki, godzina 17 (12/10, 19/10, 26/10, 2/11)
+  limit: maksymalnie 15 osób
 
 - name: Michał Furmankiewicz
   photo: MichalFurmankiewicz.jfif
