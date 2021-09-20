@@ -1,5 +1,5 @@
 - name: Marek<br/>Grabarz
-  photo: MarekGrabarz.jpg
+  photo: MarekGrabarz.jpeg
   ln: https://www.linkedin.com/in/grabarz/
   twitter: https://twitter.com/marekgrabarz
   url: https://grabarz.pl
@@ -144,18 +144,33 @@
 
 - name: Kamil<br/>Więcek
   photo: KamilWiecek.jpg
-  ln: https://www.linkedin.com/in/
-  twitter: https://twitter.com/
-  url: 
+  ln: https://www.linkedin.com/in/kamil-wiecek/
+  twitter: https://twitter.com/k_wiecek
+  url: https://www.kamilwiecek.com
   facebook: 
   github: 
   mvp: 
-  bio: 
-  workshop: Budowa Landing-Zone self-service dla organizacji
-  description: Opis niedostępny
-  level: poziom niedostępny
-  requirements:
-  dates: 
+  bio: Azure Tech Lead w Soft Serve<br/>Orędownik orchestracji. Obecnie konsultant Azure pomagający klientom w uniknięciu błędów podczas adaptacji chmury i DevOps.
+  workshop: Automatyzacja operations w Azure, za którą pokocha Cię Twoja organziacja
+  description: >
+    Sprawny zespół infrastrukturalny może usprawnić pracę pozostałym teamom poprzez usuwanie przeszkód z drogi deweloperów, standaryzację i automatyzację.<br />
+    <br />
+    Podczas warsztatów wcielimy się w rolę pracownika takiego zespołu.<br />
+    <br />
+    Jako członkowie zespołu Azure Platform Operations zbudujemy narzędzia służące do:<br />
+    👉 zarządzania Azure, Azure AD i Azure DevOps w podejścia Infrastructure as a Code<br />
+    👉 publikowania reużywalnych modułów Infra as a Code<br />
+    👉 błyskawicznego tworzenia w pełni skonfigurowanych środowisk<br />
+    👉 budowania infrastruktury aplikacyjnej<br />
+    👉 wymuszenie standardu konfiguracji, wymaganego poziomu bezpieczeństwa i monitoring zasobów<br />
+    👉 raportowania i monitorowania kosztów<br />
+    👉 automatyzowania powtarzalnych czynności administracyjnych używając Azure Pipelines, Azure Functions<br />
+    👉 opublikowania service-catalogu dla użytkowników z najpotrzebniejszymi usługami<br />
+    <br />
+    Warsztaty będą miały bardzo praktyczny charakter.
+  level: poziom podstawowy, momentami średniozaawansowany
+  requirements: potrzebne będą Tenant Azure AD z uprawnieniami Global Administrator oraz subskrypcja Azure z uprawnieniami Ownera. Mile widziane jakieś doświadczenie w skryptowaniu i przynajmniej labowe doświadcznie w pracy z usługami Azure.
+  dates: poniedziałki, godzina 18:00 (8/11, 15/11, 22/11, 29/11)
   limit: maksymalnie 20 osób
 
 - name: Paweł<br/>Haracz
