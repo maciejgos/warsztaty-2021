@@ -17,7 +17,7 @@
     👉 Bezpieczeństwo w API Management, monitorowanie i logowanie, utrzymanie usługi.<br/><br/>
     Podczas każdego ze spotkań poza wspólną pracą zachęcam wszystkich uczestników do zadawania pytań i wspólnego omawiania napotkanych problemów. Do zobaczenia!
   level: poziom średniozaawansowany
-  requirements: Wcześniejsze doświadczenie z Azure, doświadczenie związane z integracją API. Własna subskrypcja lub grupa zasobów z uprawnieniami co najmniej contributor. W przypadku braku uprawnień na całej subskrypcji, wcześniejsza rejestracja nastepujących RP: Microsoft.ApiManagement, Microsoft.Insights, Microsoft.OperationalInsights, Microsoft.Network, Microsoft.KeyVault.
+  requirements: Wymagamy wcześniejszego doświadczenia z Azure oraz doświadczenia związanego z integracją API; potrzebna bedzie własna subskrypcja lub grupa zasobów z uprawnieniami co najmniej contributor (w przypadku braku uprawnień na całej subskrypcji, wcześniejsza rejestracja nastepujących RP - Microsoft.ApiManagement, Microsoft.Insights, Microsoft.OperationalInsights, Microsoft.Network, Microsoft.KeyVault)
   dates: wtorki, godzina 17 (12/10, 19/10, 26/10, 2/11)
   limit: maksymalnie 15 osób
 
