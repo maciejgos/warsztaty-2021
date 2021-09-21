@@ -140,7 +140,7 @@
   level: poziom podstawowy
   requirements: brak dodatkowych wymagań
   dates: wtorki, godzina 18:00 (19/10, 26/10, 9/11, 16/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Kamil<br/>Więcek
   photo: KamilWiecek.jpg
