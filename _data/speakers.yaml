@@ -42,7 +42,7 @@
   level: poziom podstawowy
   requirements: potrzebna będzie subskrypcja z uprawnieniami Contributor lub Owner (najchętniej) do całej subskrypcji lub wybranej grupy zasobów
   dates: piątki, godzina 18:00 (23/10, 6/11, 20/11, 27/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Robert Przybylski
   photo: RobertPrzybylski.png
@@ -84,7 +84,7 @@
   level: poziom podstawowy
   requirements: potrzebne będzie środowisko testowe wraz z licencją EMS E5 Free trial  (Azure AD Premium P2)
   dates: środy, godzina 19:00 (13/10, 20/10, 27/10, 3/11)
-  limit: maksymalnie 20 osób
+  limit: maksymalnie 20 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Agnieszka<br/>Cent
   photo: AgnieszkaCent.jpg
