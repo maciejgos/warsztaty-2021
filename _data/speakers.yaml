@@ -189,17 +189,29 @@
   dates: środy, godzina 18:30 (3/11, 10/11, 17/11, 24/11)
   limit: maksymalnie 20 osób
 
-#- name: Andrzej Kokociński
-#  photo: AndrzejKokocinski.jfif
-#  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
-#  twitter: https://twitter.com/
-#  url: 
-#  facebook: 
-#  github: 
-#  mvp: 
-#  bio: 
-#  workshop: Security, Identity, Networking
-#  description: Opis niedostępny
-#  level: Poziom niedostępny
-#  requirements:
-#  dates: 
+- name: Andrzej Kokociński
+  photo: AndrzejKokocinski.jfif
+  ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
+  twitter: https://twitter.com/
+  url: https://blog.clouditpro.nl
+  facebook: 
+  github: https://github.com/Andrzejkokocinski
+  mvp: 
+  bio: >
+    Od ponad 25 lat w branży IT. Odpowiedzialny za projekty doradcze, szkoleniowe i wdrożeniowe. 
+    Specjalista i architekt systemów Cloud-owych office 365, Azure jak również w on-prem takich jak Active Directory, Exchange System Center. MCT posiadający 10 letnie doświadczenie. Rozwiązania Chmurowe są dla niego narzędziem, które może pomóc w zabezpieczaniu Twojej firmy. Kiedy nie pracuje występuje na konferencjach, meetupach albo dodaje coś na blogu.
+  workshop: Zarzadzanie elementami sieciowymi oraz bezpieczeństwem w Azure
+  description: >
+      Warsztat będzie dotyczył sposobu użycia serwisów do zarządzania ruchem sieciowym oraz wykorzystania serwisów, które są pomocne w zabezpieczeniu Twojego środowiska w Azure. 
+      Spotkania będą miały charakter warsztatowy i podczas nich poruszone będą tematy: <br />
+      👉 Architektura sieci, NSG,  ASG <br />
+      👉 Azure Virtual WAN <br />
+      👉 Virtual Network Routing/Azure Firewall <br />
+      👉 Azure Load Balancer/Application Gateway/Front Door/WAF <br />
+      👉 Azure Monitor <br />
+      👉 Log Analytics <br />
+      👉 Azure Security Center/ Azure Defender <br />
+      👉 Azure Sentinel
+  level: Poziom niedostępny
+  requirements: Start z poziomu podstawowego. Potrzebny będzie dostęp do subskrypcji oraz uprawnienia na niej najlepiej typu owner-a lub contributor-a, podstawowa wiedza z zakresu sieci (IP, protokoły warstw, modele ISO/OSI) oraz umiejętność zarzadzania serwisami w Azure.
+  dates: Piątki 5.11, 12.1,1 19.11, 26.11
