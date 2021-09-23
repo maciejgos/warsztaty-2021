@@ -19,7 +19,7 @@
   level: poziom średniozaawansowany
   requirements: wymagamy wcześniejszego doświadczenia z Azure oraz doświadczenia związanego z integracją API; potrzebna bedzie własna subskrypcja lub grupa zasobów z uprawnieniami co najmniej contributor (w przypadku braku uprawnień na całej subskrypcji, wcześniejsza rejestracja nastepujących RP - Microsoft.ApiManagement, Microsoft.Insights, Microsoft.OperationalInsights, Microsoft.Network, Microsoft.KeyVault)
   dates: wtorki, godzina 17 (12/10, 19/10, 26/10, 2/11)
-  limit: maksymalnie 15 osób
+  limit: maksymalnie 15 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Michał Furmankiewicz
   photo: MichalFurmankiewicz.jfif
@@ -171,7 +171,7 @@
   level: poziom podstawowy, momentami średniozaawansowany
   requirements: potrzebne będą Tenant Azure AD z uprawnieniami Global Administrator oraz subskrypcja Azure z uprawnieniami Ownera. Mile widziane jakieś doświadczenie w skryptowaniu i przynajmniej labowe doświadcznie w pracy z usługami Azure.
   dates: poniedziałki, godzina 18:00 (8/11, 15/11, 22/11, 29/11)
-  limit: maksymalnie 20 osób
+  limit: maksymalnie 20 osób - <span class="red-text">zbieramy zapisy na listę rezerwową</span>
 
 - name: Paweł<br/>Haracz
   photo: PawelHaracz.jpg
