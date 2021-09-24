@@ -192,7 +192,7 @@
 - name: Andrzej Kokociński
   photo: AndrzejKokocinski.jfif
   ln: https://www.linkedin.com/in/%E2%98%81-andrzej-kokocinski-39024832/
-  twitter: https://twitter.com/
+  twitter:
   url: https://blog.clouditpro.nl
   facebook: 
   github: https://github.com/Andrzejkokocinski
@@ -212,6 +212,6 @@
       👉 Log Analytics <br />
       👉 Azure Security Center/ Azure Defender <br />
       👉 Azure Sentinel
-  level: Poziom niedostępny
+  level: poziom podstawowy
   requirements: Start z poziomu podstawowego. Potrzebny będzie dostęp do subskrypcji oraz uprawnienia na niej najlepiej typu owner-a lub contributor-a, podstawowa wiedza z zakresu sieci (IP, protokoły warstw, modele ISO/OSI) oraz umiejętność zarzadzania serwisami w Azure.
-  dates: Piątki 5.11, 12.1,1 19.11, 26.11
+  dates: piątki, godzina TBD (5/11, 12/11 19/11, 26/11)
