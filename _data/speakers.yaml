@@ -214,4 +214,5 @@
       👉 Azure Sentinel
   level: poziom podstawowy
   requirements: Start z poziomu podstawowego. Potrzebny będzie dostęp do subskrypcji oraz uprawnienia na niej najlepiej typu owner-a lub contributor-a, podstawowa wiedza z zakresu sieci (IP, protokoły warstw, modele ISO/OSI) oraz umiejętność zarzadzania serwisami w Azure.
-  dates: piątki, godzina TBD (5/11, 12/11 19/11, 26/11)
+  dates: piątki, godzina 18:00 (5/11, 12/11 19/11, 26/11)
+  limit: maksymalnie 15 osób
